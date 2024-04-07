@@ -1,0 +1,8 @@
+﻿packages:
+  - "apps"
+  - "packages/*"
+  - "library"
+  - "templates/*"
+  - "component"
+  - "design/*"
+  - "develop"
