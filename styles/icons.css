@@ -1,0 +1,12 @@
+﻿.icon {
+  font-family: "Rubicon Icons", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-arrow-right::before { content: "\e001"; }
+.icon-arrow-left::before { content: "\e002"; }
+.icon-chevron-down::before { content: "\e003"; }
+.icon-close::before { content: "\e005"; }
