@@ -1,0 +1,13 @@
+﻿:root {
+  --color-primary-50: #f0f9ff;
+  --color-primary-500: #0ea5e9;
+  --color-primary-900: #0c4a6e;
+  
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+}
