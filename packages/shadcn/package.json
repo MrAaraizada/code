@@ -1,0 +1,19 @@
+﻿{
+  "name": "shadcn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "shadcn": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
