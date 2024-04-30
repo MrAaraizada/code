@@ -1,25 +1,30 @@
-﻿import { useTheme } from "../components/theme-provider";
+﻿/**
+ * use-theme utility
+ * Generated for: feat: implement theme system with CSS variables
 
-export function useThemeToggle() {
-  const { theme, setTheme } = useTheme();
+- Create theme provider with context API
+- Add dark/light mode toggle functionality
+- Set up system preference detection
+- Implement theme persistence in localStorage
+ */
 
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else if (theme === "dark") {
-      setTheme("system");
-    } else {
-      setTheme("light");
+export interface use-themeConfig {
+  enabled: boolean;
+  options?: Record<string, any>;
+}
+
+export class use-theme {
+  private config: use-themeConfig;
+
+  constructor(config: use-themeConfig) {
+    this.config = config;
+  }
+
+  public execute(): void {
+    if (this.config.enabled) {
+      // Implementation here
     }
-  };
-
-  return { theme, toggleTheme, setTheme };
+  }
 }
 
-export function getSystemTheme(): "light" | "dark" {
-  if (typeof window === "undefined") return "light";
-  
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
-}
+export default use-theme;
