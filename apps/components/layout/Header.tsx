@@ -1,11 +1,11 @@
 ﻿import React from 'react';
 
-interface SidebarProps {
+interface HeaderProps {
   children?: React.ReactNode;
   className?: string;
 }
 
-export const Sidebar: React.FC<SidebarProps> = ({ children, className }) => {
+export const Header: React.FC<HeaderProps> = ({ children, className }) => {
   return (
     <div className={className}>
       {children}
@@ -13,4 +13,4 @@ export const Sidebar: React.FC<SidebarProps> = ({ children, className }) => {
   );
 };
 
-export default Sidebar;
+export default Header;
