@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- button_attrs layout -->
+<!-- Generated for: feat: implement Material Design 3 buttons
+
+- Create filled, outlined, and text button variants
+- Add state layer effects and ripple animations
+- Implement dynamic color theming
+- Set up accessibility features -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+</LinearLayout>
