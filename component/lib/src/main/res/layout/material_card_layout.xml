@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- material_card_layout layout -->
+<!-- Generated for: feat: add Material Design 3 cards and surfaces
+
+- Implement elevated and filled card variants
+- Create surface components with elevation
+- Add card action areas and media support
+- Set up dynamic elevation theming -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+</LinearLayout>
