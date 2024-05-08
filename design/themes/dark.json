@@ -1,0 +1,16 @@
+﻿{
+  "name": "dark",
+  "version": "1.0.0",
+  "description": "Generated for: feat: add theme configuration system
+
+- Create light and dark theme definitions
+- Implement theme switching utilities
+- Add theme validation and type safety
+- Set up theme preview components",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
