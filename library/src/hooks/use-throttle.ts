@@ -1,5 +1,5 @@
 ﻿/**
- * use-debounce utility
+ * use-throttle utility
  * Generated for: feat: add performance optimization hooks
 
 - Implement useDebounce and useThrottle
@@ -8,15 +8,15 @@
 - Set up useEventListener with cleanup
  */
 
-export interface use-debounceConfig {
+export interface use-throttleConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class use-debounce {
-  private config: use-debounceConfig;
+export class use-throttle {
+  private config: use-throttleConfig;
 
-  constructor(config: use-debounceConfig) {
+  constructor(config: use-throttleConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class use-debounce {
   }
 }
 
-export default use-debounce;
+export default use-throttle;

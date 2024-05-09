@@ -1,5 +1,5 @@
 ﻿/**
- * use-debounce utility
+ * use-event-listener utility
  * Generated for: feat: add performance optimization hooks
 
 - Implement useDebounce and useThrottle
@@ -8,15 +8,15 @@
 - Set up useEventListener with cleanup
  */
 
-export interface use-debounceConfig {
+export interface use-event-listenerConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class use-debounce {
-  private config: use-debounceConfig;
+export class use-event-listener {
+  private config: use-event-listenerConfig;
 
-  constructor(config: use-debounceConfig) {
+  constructor(config: use-event-listenerConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class use-debounce {
   }
 }
 
-export default use-debounce;
+export default use-event-listener;

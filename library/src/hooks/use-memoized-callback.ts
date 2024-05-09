@@ -1,5 +1,5 @@
 ﻿/**
- * use-debounce utility
+ * use-memoized-callback utility
  * Generated for: feat: add performance optimization hooks
 
 - Implement useDebounce and useThrottle
@@ -8,15 +8,15 @@
 - Set up useEventListener with cleanup
  */
 
-export interface use-debounceConfig {
+export interface use-memoized-callbackConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class use-debounce {
-  private config: use-debounceConfig;
+export class use-memoized-callback {
+  private config: use-memoized-callbackConfig;
 
-  constructor(config: use-debounceConfig) {
+  constructor(config: use-memoized-callbackConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class use-debounce {
   }
 }
 
-export default use-debounce;
+export default use-memoized-callback;
