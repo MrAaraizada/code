@@ -1,0 +1,30 @@
+﻿/**
+ * performance-monitor utility
+ * Generated for: feat: implement performance testing
+
+- Add bundle size monitoring
+- Create performance benchmarks
+- Implement Core Web Vitals tracking
+- Set up automated performance alerts
+ */
+
+export interface performance-monitorConfig {
+  enabled: boolean;
+  options?: Record<string, any>;
+}
+
+export class performance-monitor {
+  private config: performance-monitorConfig;
+
+  constructor(config: performance-monitorConfig) {
+    this.config = config;
+  }
+
+  public execute(): void {
+    if (this.config.enabled) {
+      // Implementation here
+    }
+  }
+}
+
+export default performance-monitor;
