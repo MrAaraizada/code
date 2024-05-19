@@ -1,0 +1,21 @@
+﻿/* positioning styles */
+/* Generated for: feat: create layout utilities
+
+- Implement flexbox helpers
+- Add grid system utilities
+- Create positioning classes
+- Set up container queries */
+
+.positioning {
+  display: block;
+  position: relative;
+}
+
+.positioning--active {
+  opacity: 1;
+}
+
+.positioning--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

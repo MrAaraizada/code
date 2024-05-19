@@ -1,0 +1,21 @@
+﻿/* grid styles */
+/* Generated for: feat: create layout utilities
+
+- Implement flexbox helpers
+- Add grid system utilities
+- Create positioning classes
+- Set up container queries */
+
+.grid {
+  display: block;
+  position: relative;
+}
+
+.grid--active {
+  opacity: 1;
+}
+
+.grid--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
