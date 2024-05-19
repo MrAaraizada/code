@@ -1,0 +1,21 @@
+﻿/* colors styles */
+/* Generated for: feat: add utility class system
+
+- Create atomic CSS utilities
+- Implement spacing helpers
+- Add color utility classes
+- Set up typography utilities */
+
+.colors {
+  display: block;
+  position: relative;
+}
+
+.colors--active {
+  opacity: 1;
+}
+
+.colors--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

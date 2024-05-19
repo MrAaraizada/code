@@ -1,0 +1,21 @@
+﻿/* typography styles */
+/* Generated for: feat: add utility class system
+
+- Create atomic CSS utilities
+- Implement spacing helpers
+- Add color utility classes
+- Set up typography utilities */
+
+.typography {
+  display: block;
+  position: relative;
+}
+
+.typography--active {
+  opacity: 1;
+}
+
+.typography--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
