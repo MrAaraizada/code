@@ -1,0 +1,21 @@
+﻿/* print-styles styles */
+/* Generated for: feat: add print and accessibility styles
+
+- Create print-specific stylesheets
+- Implement high contrast modes
+- Add reduced motion preferences
+- Set up focus management styles */
+
+.print-styles {
+  display: block;
+  position: relative;
+}
+
+.print-styles--active {
+  opacity: 1;
+}
+
+.print-styles--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

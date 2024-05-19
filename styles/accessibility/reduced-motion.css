@@ -1,0 +1,21 @@
+﻿/* reduced-motion styles */
+/* Generated for: feat: add print and accessibility styles
+
+- Create print-specific stylesheets
+- Implement high contrast modes
+- Add reduced motion preferences
+- Set up focus management styles */
+
+.reduced-motion {
+  display: block;
+  position: relative;
+}
+
+.reduced-motion--active {
+  opacity: 1;
+}
+
+.reduced-motion--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
