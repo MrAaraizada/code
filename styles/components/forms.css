@@ -1,0 +1,21 @@
+﻿/* forms styles */
+/* Generated for: feat: add component-specific styles
+
+- Create button style variants
+- Implement form styling
+- Add card component styles
+- Set up navigation styles */
+
+.forms {
+  display: block;
+  position: relative;
+}
+
+.forms--active {
+  opacity: 1;
+}
+
+.forms--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
