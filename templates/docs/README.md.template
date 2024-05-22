@@ -1,0 +1,12 @@
+﻿/**
+ * README.md
+ * Generated for: feat: create documentation templates
+
+- Implement README templates
+- Add API documentation templates
+- Create changelog templates
+- Set up contributing guidelines
+ * File type: .template
+ */
+
+export default {};
