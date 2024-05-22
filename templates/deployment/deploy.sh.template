@@ -1,0 +1,12 @@
+﻿/**
+ * deploy.sh
+ * Generated for: feat: add deployment templates
+
+- Create Docker templates
+- Implement CI/CD templates
+- Add deployment scripts
+- Set up environment configurations
+ * File type: .template
+ */
+
+export default {};
