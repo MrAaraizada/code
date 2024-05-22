@@ -1,0 +1,12 @@
+﻿/**
+ * tsconfig.json
+ * Generated for: feat: add configuration templates
+
+- Create package.json templates
+- Implement tsconfig templates
+- Add build configuration templates
+- Set up environment templates
+ * File type: .template
+ */
+
+export default {};
