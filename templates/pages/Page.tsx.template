@@ -1,0 +1,12 @@
+﻿/**
+ * Page.tsx
+ * Generated for: feat: implement page templates
+
+- Create page component templates
+- Add layout templates
+- Implement route templates
+- Set up API route templates
+ * File type: .template
+ */
+
+export default {};
