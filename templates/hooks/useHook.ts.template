@@ -1,0 +1,12 @@
+﻿/**
+ * useHook.ts
+ * Generated for: feat: add component templates
+
+- Create component boilerplates
+- Implement hook templates
+- Add utility function templates
+- Set up test file generators
+ * File type: .template
+ */
+
+export default {};
