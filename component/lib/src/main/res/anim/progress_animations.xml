@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- progress_animations layout -->
+<!-- Generated for: feat: implement Material Design progress indicators
+
+- Create linear progress bars
+- Add circular progress indicators
+- Implement determinate/indeterminate states
+- Set up progress animations -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+</LinearLayout>
