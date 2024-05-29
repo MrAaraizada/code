@@ -1,0 +1,15 @@
+﻿# pipeline configuration
+# Generated for: feat: implement testing integration
+
+- Connect all test suites
+- Add cross-package testing
+- Implement E2E test scenarios
+- Set up CI/CD integration
+
+name: pipeline
+version: 1.0.0
+description: Generated configuration file
+
+settings:
+  enabled: true
+  options: {}
