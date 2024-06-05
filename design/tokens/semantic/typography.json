@@ -1,0 +1,16 @@
+﻿{
+  "name": "typography",
+  "version": "1.0.0",
+  "description": "Generated for: feat: create advanced design token system
+
+- Implement semantic token layers
+- Add contextual token variations
+- Create token composition rules
+- Set up token validation system",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
