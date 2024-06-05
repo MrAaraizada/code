@@ -1,0 +1,15 @@
+﻿# design-pipeline configuration
+# Generated for: feat: implement design system tooling
+
+- Create token synchronization tools
+- Add design lint rules
+- Implement automated testing
+- Set up design system CI/CD
+
+name: design-pipeline
+version: 1.0.0
+description: Generated configuration file
+
+settings:
+  enabled: true
+  options: {}
