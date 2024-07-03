@@ -1,10 +1,10 @@
-﻿package com.material.accessibilitytesting
+﻿package com.material.continuoustesting
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 /**
- * AccessibilityTesting component
+ * ContinuousTesting component
  * Generated for: feat: create Android testing framework
 
 - Implement UI testing automation
@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 - Set up continuous testing
  */
 @Composable
-fun AccessibilityTesting(
+fun ContinuousTesting(
     modifier: Modifier = Modifier
 ) {
     // Implementation here
