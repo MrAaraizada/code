@@ -2,8 +2,8 @@
  * DesignUpdates utility
  * Generated for: feat: add design system automation
 
-- Implement automated design updates
-- Create design consistency checking
+- Create automated design updates
+- Implement design token synchronization
 - Add design system testing
 - Set up design deployment pipelines
  */

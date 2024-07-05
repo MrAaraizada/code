@@ -1,5 +1,5 @@
 ﻿/**
- * DesignTesting utility
+ * TokenSynchronization utility
  * Generated for: feat: add design system automation
 
 - Create automated design updates
@@ -8,15 +8,15 @@
 - Set up design deployment pipelines
  */
 
-export interface DesignTestingConfig {
+export interface TokenSynchronizationConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class DesignTesting {
-  private config: DesignTestingConfig;
+export class TokenSynchronization {
+  private config: TokenSynchronizationConfig;
 
-  constructor(config: DesignTestingConfig) {
+  constructor(config: TokenSynchronizationConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class DesignTesting {
   }
 }
 
-export default DesignTesting;
+export default TokenSynchronization;
