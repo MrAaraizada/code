@@ -1,5 +1,5 @@
 ﻿/**
- * ContentPersonalization utility
+ * BehavioralTargeting utility
  * Generated for: feat: add page personalization engine
 
 - Create user segmentation system
@@ -8,15 +8,15 @@
 - Set up A/B testing framework
  */
 
-export interface ContentPersonalizationConfig {
+export interface BehavioralTargetingConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class ContentPersonalization {
-  private config: ContentPersonalizationConfig;
+export class BehavioralTargeting {
+  private config: BehavioralTargetingConfig;
 
-  constructor(config: ContentPersonalizationConfig) {
+  constructor(config: BehavioralTargetingConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class ContentPersonalization {
   }
 }
 
-export default ContentPersonalization;
+export default BehavioralTargeting;

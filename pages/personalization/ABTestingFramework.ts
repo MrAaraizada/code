@@ -1,5 +1,5 @@
 ﻿/**
- * ContentPersonalization utility
+ * ABTestingFramework utility
  * Generated for: feat: add page personalization engine
 
 - Create user segmentation system
@@ -8,15 +8,15 @@
 - Set up A/B testing framework
  */
 
-export interface ContentPersonalizationConfig {
+export interface ABTestingFrameworkConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class ContentPersonalization {
-  private config: ContentPersonalizationConfig;
+export class ABTestingFramework {
+  private config: ABTestingFrameworkConfig;
 
-  constructor(config: ContentPersonalizationConfig) {
+  constructor(config: ABTestingFrameworkConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class ContentPersonalization {
   }
 }
 
-export default ContentPersonalization;
+export default ABTestingFramework;
