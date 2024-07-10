@@ -1,5 +1,5 @@
 ﻿/**
- * CulturalAdaptation utility
+ * MultiLanguagePages utility
  * Generated for: feat: add page internationalization
 
 - Create multi-language page system
@@ -8,15 +8,15 @@
 - Set up translation workflows
  */
 
-export interface CulturalAdaptationConfig {
+export interface MultiLanguagePagesConfig {
   enabled: boolean;
   options?: Record<string, any>;
 }
 
-export class CulturalAdaptation {
-  private config: CulturalAdaptationConfig;
+export class MultiLanguagePages {
+  private config: MultiLanguagePagesConfig;
 
-  constructor(config: CulturalAdaptationConfig) {
+  constructor(config: MultiLanguagePagesConfig) {
     this.config = config;
   }
 
@@ -27,4 +27,4 @@ export class CulturalAdaptation {
   }
 }
 
-export default CulturalAdaptation;
+export default MultiLanguagePages;

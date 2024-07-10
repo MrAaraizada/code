@@ -2,8 +2,8 @@
  * TranslationWorkflows utility
  * Generated for: feat: add page internationalization
 
-- Implement multi-language routing
-- Create locale-specific optimizations
+- Create multi-language page system
+- Implement locale-based routing
 - Add cultural adaptation features
 - Set up translation workflows
  */
