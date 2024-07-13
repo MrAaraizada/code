@@ -6,7 +6,7 @@
 - Add package security scanning
 - Create package compliance tools
 - Set up package governance
- * Created: 2026-01-19 12:57:48
+ * Created: 2026-01-19 12:57:53
  */
 
 export interface PrivateRegistryV2Config {
