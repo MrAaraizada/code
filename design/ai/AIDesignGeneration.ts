@@ -1,5 +1,5 @@
 ﻿/**
- * IntelligentSuggestions
+ * AIDesignGeneration
  * Generated for: feat: implement design AI platform
 
 - Create AI-powered design generation
@@ -9,16 +9,16 @@
  * Created: 2026-01-19 13:13:21
  */
 
-export interface IntelligentSuggestionsConfig {
+export interface AIDesignGenerationConfig {
   enabled: boolean;
   version: string;
   options?: Record<string, any>;
 }
 
-export class IntelligentSuggestions {
-  private config: IntelligentSuggestionsConfig;
+export class AIDesignGeneration {
+  private config: AIDesignGenerationConfig;
 
-  constructor(config: IntelligentSuggestionsConfig) {
+  constructor(config: AIDesignGenerationConfig) {
     this.config = config;
   }
 
@@ -28,9 +28,9 @@ export class IntelligentSuggestions {
     }
   }
 
-  public getConfig(): IntelligentSuggestionsConfig {
+  public getConfig(): AIDesignGenerationConfig {
     return { ...this.config };
   }
 }
 
-export default IntelligentSuggestions;
+export default AIDesignGeneration;
