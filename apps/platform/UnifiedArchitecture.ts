@@ -1,5 +1,5 @@
 ﻿/**
- * PlatformOrchestration
+ * UnifiedArchitecture
  * Generated for: feat: add platform integration system
 
 - Implement unified platform architecture
@@ -9,16 +9,16 @@
  * Created: 2026-01-19 13:13:25
  */
 
-export interface PlatformOrchestrationConfig {
+export interface UnifiedArchitectureConfig {
   enabled: boolean;
   version: string;
   options?: Record<string, any>;
 }
 
-export class PlatformOrchestration {
-  private config: PlatformOrchestrationConfig;
+export class UnifiedArchitecture {
+  private config: UnifiedArchitectureConfig;
 
-  constructor(config: PlatformOrchestrationConfig) {
+  constructor(config: UnifiedArchitectureConfig) {
     this.config = config;
   }
 
@@ -28,9 +28,9 @@ export class PlatformOrchestration {
     }
   }
 
-  public getConfig(): PlatformOrchestrationConfig {
+  public getConfig(): UnifiedArchitectureConfig {
     return { ...this.config };
   }
 }
 
-export default PlatformOrchestration;
+export default UnifiedArchitecture;
