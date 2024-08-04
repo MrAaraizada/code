@@ -1,4 +1,4 @@
-﻿package com.material.themeoptimization
+﻿package com.material.dynamicthemes
 
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 /**
- * ThemeOptimization - Advanced Compose Component
+ * DynamicThemes - Advanced Compose Component
  * Generated for: feat: create component theming system
 
 - Implement dynamic theme switching
@@ -19,32 +19,32 @@ import kotlinx.coroutines.flow.asStateFlow
  * Created: 2026-01-19 13:06:35
  */
 
-data class ThemeOptimizationState(
+data class DynamicThemesState(
     val isLoading: Boolean = false,
     val isEnabled: Boolean = true,
     val data: Any? = null,
     val error: String? = null
 )
 
-data class ThemeOptimizationConfig(
+data class DynamicThemesConfig(
     val enabled: Boolean = true,
     val variant: String = "primary",
     val features: List<String> = emptyList(),
     val options: Map<String, Any> = emptyMap()
 )
 
-class ThemeOptimizationViewModel {
-    private val _state = MutableStateFlow(ThemeOptimizationState())
-    val state: StateFlow<ThemeOptimizationState> = _state.asStateFlow()
+class DynamicThemesViewModel {
+    private val _state = MutableStateFlow(DynamicThemesState())
+    val state: StateFlow<DynamicThemesState> = _state.asStateFlow()
     
-    private val _config = MutableStateFlow(ThemeOptimizationConfig())
-    val config: StateFlow<ThemeOptimizationConfig> = _config.asStateFlow()
+    private val _config = MutableStateFlow(DynamicThemesConfig())
+    val config: StateFlow<DynamicThemesConfig> = _config.asStateFlow()
     
-    fun updateState(newState: ThemeOptimizationState) {
+    fun updateState(newState: DynamicThemesState) {
         _state.value = newState
     }
     
-    fun updateConfig(newConfig: ThemeOptimizationConfig) {
+    fun updateConfig(newConfig: DynamicThemesConfig) {
         _config.value = newConfig
     }
     
@@ -99,9 +99,9 @@ class ThemeOptimizationViewModel {
 }
 
 @Composable
-fun ThemeOptimization(
+fun DynamicThemes(
     modifier: Modifier = Modifier,
-    viewModel: ThemeOptimizationViewModel = remember { ThemeOptimizationViewModel() },
+    viewModel: DynamicThemesViewModel = remember { DynamicThemesViewModel() },
     onAction: ((String, Map<String, Any>) -> Unit)? = null
 ) {
     val state by viewModel.state.collectAsState()
@@ -117,7 +117,7 @@ fun ThemeOptimization(
     ) {
         if (config.enabled) {
             Text(
-                text = "ThemeOptimization Component",
+                text = "DynamicThemes Component",
                 style = MaterialTheme.typography.headlineSmall
             )
             
@@ -170,8 +170,8 @@ fun ThemeOptimization(
 }
 
 @Composable
-fun ThemeOptimizationPreview() {
+fun DynamicThemesPreview() {
     MaterialTheme {
-        ThemeOptimization()
+        DynamicThemes()
     }
 }
