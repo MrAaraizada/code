@@ -1,4 +1,4 @@
-﻿package com.material.visualregression
+﻿package com.material.automatedpipeline
 
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 /**
- * VisualRegression - Advanced Compose Component
+ * AutomatedPipeline - Advanced Compose Component
  * Generated for: feat: create component testing framework
 
 - Implement visual regression testing
@@ -19,32 +19,32 @@ import kotlinx.coroutines.flow.asStateFlow
  * Created: 2026-01-19 13:06:37
  */
 
-data class VisualRegressionState(
+data class AutomatedPipelineState(
     val isLoading: Boolean = false,
     val isEnabled: Boolean = true,
     val data: Any? = null,
     val error: String? = null
 )
 
-data class VisualRegressionConfig(
+data class AutomatedPipelineConfig(
     val enabled: Boolean = true,
     val variant: String = "primary",
     val features: List<String> = emptyList(),
     val options: Map<String, Any> = emptyMap()
 )
 
-class VisualRegressionViewModel {
-    private val _state = MutableStateFlow(VisualRegressionState())
-    val state: StateFlow<VisualRegressionState> = _state.asStateFlow()
+class AutomatedPipelineViewModel {
+    private val _state = MutableStateFlow(AutomatedPipelineState())
+    val state: StateFlow<AutomatedPipelineState> = _state.asStateFlow()
     
-    private val _config = MutableStateFlow(VisualRegressionConfig())
-    val config: StateFlow<VisualRegressionConfig> = _config.asStateFlow()
+    private val _config = MutableStateFlow(AutomatedPipelineConfig())
+    val config: StateFlow<AutomatedPipelineConfig> = _config.asStateFlow()
     
-    fun updateState(newState: VisualRegressionState) {
+    fun updateState(newState: AutomatedPipelineState) {
         _state.value = newState
     }
     
-    fun updateConfig(newConfig: VisualRegressionConfig) {
+    fun updateConfig(newConfig: AutomatedPipelineConfig) {
         _config.value = newConfig
     }
     
@@ -99,9 +99,9 @@ class VisualRegressionViewModel {
 }
 
 @Composable
-fun VisualRegression(
+fun AutomatedPipeline(
     modifier: Modifier = Modifier,
-    viewModel: VisualRegressionViewModel = remember { VisualRegressionViewModel() },
+    viewModel: AutomatedPipelineViewModel = remember { AutomatedPipelineViewModel() },
     onAction: ((String, Map<String, Any>) -> Unit)? = null
 ) {
     val state by viewModel.state.collectAsState()
@@ -117,7 +117,7 @@ fun VisualRegression(
     ) {
         if (config.enabled) {
             Text(
-                text = "VisualRegression Component",
+                text = "AutomatedPipeline Component",
                 style = MaterialTheme.typography.headlineSmall
             )
             
@@ -170,8 +170,8 @@ fun VisualRegression(
 }
 
 @Composable
-fun VisualRegressionPreview() {
+fun AutomatedPipelinePreview() {
     MaterialTheme {
-        VisualRegression()
+        AutomatedPipeline()
     }
 }

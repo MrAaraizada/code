@@ -1,4 +1,4 @@
-﻿package com.material.visualregression
+﻿package com.material.interactiontesting
 
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 /**
- * VisualRegression - Advanced Compose Component
+ * InteractionTesting - Advanced Compose Component
  * Generated for: feat: create component testing framework
 
 - Implement visual regression testing
@@ -19,32 +19,32 @@ import kotlinx.coroutines.flow.asStateFlow
  * Created: 2026-01-19 13:06:37
  */
 
-data class VisualRegressionState(
+data class InteractionTestingState(
     val isLoading: Boolean = false,
     val isEnabled: Boolean = true,
     val data: Any? = null,
     val error: String? = null
 )
 
-data class VisualRegressionConfig(
+data class InteractionTestingConfig(
     val enabled: Boolean = true,
     val variant: String = "primary",
     val features: List<String> = emptyList(),
     val options: Map<String, Any> = emptyMap()
 )
 
-class VisualRegressionViewModel {
-    private val _state = MutableStateFlow(VisualRegressionState())
-    val state: StateFlow<VisualRegressionState> = _state.asStateFlow()
+class InteractionTestingViewModel {
+    private val _state = MutableStateFlow(InteractionTestingState())
+    val state: StateFlow<InteractionTestingState> = _state.asStateFlow()
     
-    private val _config = MutableStateFlow(VisualRegressionConfig())
-    val config: StateFlow<VisualRegressionConfig> = _config.asStateFlow()
+    private val _config = MutableStateFlow(InteractionTestingConfig())
+    val config: StateFlow<InteractionTestingConfig> = _config.asStateFlow()
     
-    fun updateState(newState: VisualRegressionState) {
+    fun updateState(newState: InteractionTestingState) {
         _state.value = newState
     }
     
-    fun updateConfig(newConfig: VisualRegressionConfig) {
+    fun updateConfig(newConfig: InteractionTestingConfig) {
         _config.value = newConfig
     }
     
@@ -99,9 +99,9 @@ class VisualRegressionViewModel {
 }
 
 @Composable
-fun VisualRegression(
+fun InteractionTesting(
     modifier: Modifier = Modifier,
-    viewModel: VisualRegressionViewModel = remember { VisualRegressionViewModel() },
+    viewModel: InteractionTestingViewModel = remember { InteractionTestingViewModel() },
     onAction: ((String, Map<String, Any>) -> Unit)? = null
 ) {
     val state by viewModel.state.collectAsState()
@@ -117,7 +117,7 @@ fun VisualRegression(
     ) {
         if (config.enabled) {
             Text(
-                text = "VisualRegression Component",
+                text = "InteractionTesting Component",
                 style = MaterialTheme.typography.headlineSmall
             )
             
@@ -170,8 +170,8 @@ fun VisualRegression(
 }
 
 @Composable
-fun VisualRegressionPreview() {
+fun InteractionTestingPreview() {
     MaterialTheme {
-        VisualRegression()
+        InteractionTesting()
     }
 }
