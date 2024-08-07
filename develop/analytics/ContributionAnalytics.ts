@@ -1,5 +1,5 @@
 ﻿/**
- * ProductivityMetrics - Advanced Implementation
+ * ContributionAnalytics - Advanced Implementation
  * Generated for: feat: add development analytics platform
 
 - Implement developer productivity metrics
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:42
  */
 
-export interface ProductivityMetricsConfig {
+export interface ContributionAnalyticsConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface ProductivityMetricsConfig {
   };
 }
 
-export interface ProductivityMetricsAnalytics {
+export interface ContributionAnalyticsAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface ProductivityMetricsAnalytics {
   insights: string[];
 }
 
-export class ProductivityMetrics {
-  private config: ProductivityMetricsConfig;
-  private analytics: ProductivityMetricsAnalytics;
+export class ContributionAnalytics {
+  private config: ContributionAnalyticsConfig;
+  private analytics: ContributionAnalyticsAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: ProductivityMetricsConfig) {
+  constructor(config: ContributionAnalyticsConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class ProductivityMetrics {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('ProductivityMetrics not properly initialized'));
+        reject(new Error('ContributionAnalytics not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class ProductivityMetrics {
     }
   }
 
-  public getConfig(): ProductivityMetricsConfig {
+  public getConfig(): ContributionAnalyticsConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): ProductivityMetricsAnalytics {
+  public getAnalytics(): ContributionAnalyticsAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<ProductivityMetricsConfig>): void {
+  public updateConfig(updates: Partial<ContributionAnalyticsConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class ProductivityMetrics {
   }
 }
 
-export default ProductivityMetrics;
+export default ContributionAnalytics;

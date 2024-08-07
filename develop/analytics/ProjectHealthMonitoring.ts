@@ -1,5 +1,5 @@
 ﻿/**
- * ProductivityMetrics - Advanced Implementation
+ * ProjectHealthMonitoring - Advanced Implementation
  * Generated for: feat: add development analytics platform
 
 - Implement developer productivity metrics
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:42
  */
 
-export interface ProductivityMetricsConfig {
+export interface ProjectHealthMonitoringConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface ProductivityMetricsConfig {
   };
 }
 
-export interface ProductivityMetricsAnalytics {
+export interface ProjectHealthMonitoringAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface ProductivityMetricsAnalytics {
   insights: string[];
 }
 
-export class ProductivityMetrics {
-  private config: ProductivityMetricsConfig;
-  private analytics: ProductivityMetricsAnalytics;
+export class ProjectHealthMonitoring {
+  private config: ProjectHealthMonitoringConfig;
+  private analytics: ProjectHealthMonitoringAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: ProductivityMetricsConfig) {
+  constructor(config: ProjectHealthMonitoringConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class ProductivityMetrics {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('ProductivityMetrics not properly initialized'));
+        reject(new Error('ProjectHealthMonitoring not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class ProductivityMetrics {
     }
   }
 
-  public getConfig(): ProductivityMetricsConfig {
+  public getConfig(): ProjectHealthMonitoringConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): ProductivityMetricsAnalytics {
+  public getAnalytics(): ProjectHealthMonitoringAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<ProductivityMetricsConfig>): void {
+  public updateConfig(updates: Partial<ProjectHealthMonitoringConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class ProductivityMetrics {
   }
 }
 
-export default ProductivityMetrics;
+export default ProjectHealthMonitoring;
