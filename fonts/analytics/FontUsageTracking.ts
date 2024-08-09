@@ -1,5 +1,5 @@
 ﻿/**
- * ReadabilityAnalytics - Advanced Implementation
+ * FontUsageTracking - Advanced Implementation
  * Generated for: feat: add typography analytics system
 
 - Implement font usage tracking
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:43
  */
 
-export interface ReadabilityAnalyticsConfig {
+export interface FontUsageTrackingConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface ReadabilityAnalyticsConfig {
   };
 }
 
-export interface ReadabilityAnalyticsAnalytics {
+export interface FontUsageTrackingAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface ReadabilityAnalyticsAnalytics {
   insights: string[];
 }
 
-export class ReadabilityAnalytics {
-  private config: ReadabilityAnalyticsConfig;
-  private analytics: ReadabilityAnalyticsAnalytics;
+export class FontUsageTracking {
+  private config: FontUsageTrackingConfig;
+  private analytics: FontUsageTrackingAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: ReadabilityAnalyticsConfig) {
+  constructor(config: FontUsageTrackingConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class ReadabilityAnalytics {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('ReadabilityAnalytics not properly initialized'));
+        reject(new Error('FontUsageTracking not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class ReadabilityAnalytics {
     }
   }
 
-  public getConfig(): ReadabilityAnalyticsConfig {
+  public getConfig(): FontUsageTrackingConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): ReadabilityAnalyticsAnalytics {
+  public getAnalytics(): FontUsageTrackingAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<ReadabilityAnalyticsConfig>): void {
+  public updateConfig(updates: Partial<FontUsageTrackingConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class ReadabilityAnalytics {
   }
 }
 
-export default ReadabilityAnalytics;
+export default FontUsageTracking;
