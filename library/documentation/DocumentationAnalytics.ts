@@ -1,5 +1,5 @@
 ﻿/**
- * DocumentationVersioning - Advanced Implementation
+ * DocumentationAnalytics - Advanced Implementation
  * Generated for: feat: implement library documentation system
 
 - Create interactive API documentation
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:46
  */
 
-export interface DocumentationVersioningConfig {
+export interface DocumentationAnalyticsConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface DocumentationVersioningConfig {
   };
 }
 
-export interface DocumentationVersioningAnalytics {
+export interface DocumentationAnalyticsAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface DocumentationVersioningAnalytics {
   insights: string[];
 }
 
-export class DocumentationVersioning {
-  private config: DocumentationVersioningConfig;
-  private analytics: DocumentationVersioningAnalytics;
+export class DocumentationAnalytics {
+  private config: DocumentationAnalyticsConfig;
+  private analytics: DocumentationAnalyticsAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: DocumentationVersioningConfig) {
+  constructor(config: DocumentationAnalyticsConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class DocumentationVersioning {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('DocumentationVersioning not properly initialized'));
+        reject(new Error('DocumentationAnalytics not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class DocumentationVersioning {
     }
   }
 
-  public getConfig(): DocumentationVersioningConfig {
+  public getConfig(): DocumentationAnalyticsConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): DocumentationVersioningAnalytics {
+  public getAnalytics(): DocumentationAnalyticsAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<DocumentationVersioningConfig>): void {
+  public updateConfig(updates: Partial<DocumentationAnalyticsConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class DocumentationVersioning {
   }
 }
 
-export default DocumentationVersioning;
+export default DocumentationAnalytics;
