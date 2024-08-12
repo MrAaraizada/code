@@ -1,5 +1,5 @@
 ﻿/**
- * PolicyEnforcement - Advanced Implementation
+ * IntegrityVerification - Advanced Implementation
  * Generated for: feat: add package security and compliance
 
 - Implement package vulnerability scanning
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:48
  */
 
-export interface PolicyEnforcementConfig {
+export interface IntegrityVerificationConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface PolicyEnforcementConfig {
   };
 }
 
-export interface PolicyEnforcementAnalytics {
+export interface IntegrityVerificationAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface PolicyEnforcementAnalytics {
   insights: string[];
 }
 
-export class PolicyEnforcement {
-  private config: PolicyEnforcementConfig;
-  private analytics: PolicyEnforcementAnalytics;
+export class IntegrityVerification {
+  private config: IntegrityVerificationConfig;
+  private analytics: IntegrityVerificationAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: PolicyEnforcementConfig) {
+  constructor(config: IntegrityVerificationConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class PolicyEnforcement {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('PolicyEnforcement not properly initialized'));
+        reject(new Error('IntegrityVerification not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class PolicyEnforcement {
     }
   }
 
-  public getConfig(): PolicyEnforcementConfig {
+  public getConfig(): IntegrityVerificationConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): PolicyEnforcementAnalytics {
+  public getAnalytics(): IntegrityVerificationAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<PolicyEnforcementConfig>): void {
+  public updateConfig(updates: Partial<IntegrityVerificationConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class PolicyEnforcement {
   }
 }
 
-export default PolicyEnforcement;
+export default IntegrityVerification;
