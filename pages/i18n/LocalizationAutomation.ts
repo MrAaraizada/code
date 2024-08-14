@@ -1,5 +1,5 @@
 ﻿/**
- * CulturalAdaptation - Advanced Implementation
+ * LocalizationAutomation - Advanced Implementation
  * Generated for: feat: create page internationalization
 
 - Implement multi-language support
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:53
  */
 
-export interface CulturalAdaptationConfig {
+export interface LocalizationAutomationConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface CulturalAdaptationConfig {
   };
 }
 
-export interface CulturalAdaptationAnalytics {
+export interface LocalizationAutomationAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface CulturalAdaptationAnalytics {
   insights: string[];
 }
 
-export class CulturalAdaptation {
-  private config: CulturalAdaptationConfig;
-  private analytics: CulturalAdaptationAnalytics;
+export class LocalizationAutomation {
+  private config: LocalizationAutomationConfig;
+  private analytics: LocalizationAutomationAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: CulturalAdaptationConfig) {
+  constructor(config: LocalizationAutomationConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class CulturalAdaptation {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('CulturalAdaptation not properly initialized'));
+        reject(new Error('LocalizationAutomation not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class CulturalAdaptation {
     }
   }
 
-  public getConfig(): CulturalAdaptationConfig {
+  public getConfig(): LocalizationAutomationConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): CulturalAdaptationAnalytics {
+  public getAnalytics(): LocalizationAutomationAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<CulturalAdaptationConfig>): void {
+  public updateConfig(updates: Partial<LocalizationAutomationConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class CulturalAdaptation {
   }
 }
 
-export default CulturalAdaptation;
+export default LocalizationAutomation;
