@@ -1,5 +1,5 @@
 ﻿/**
- * SecurityMonitoring - Advanced Implementation
+ * ContentSecurityPolicies - Advanced Implementation
  * Generated for: feat: add page security framework
 
 - Implement content security policies
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:52
  */
 
-export interface SecurityMonitoringConfig {
+export interface ContentSecurityPoliciesConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface SecurityMonitoringConfig {
   };
 }
 
-export interface SecurityMonitoringAnalytics {
+export interface ContentSecurityPoliciesAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface SecurityMonitoringAnalytics {
   insights: string[];
 }
 
-export class SecurityMonitoring {
-  private config: SecurityMonitoringConfig;
-  private analytics: SecurityMonitoringAnalytics;
+export class ContentSecurityPolicies {
+  private config: ContentSecurityPoliciesConfig;
+  private analytics: ContentSecurityPoliciesAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: SecurityMonitoringConfig) {
+  constructor(config: ContentSecurityPoliciesConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class SecurityMonitoring {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('SecurityMonitoring not properly initialized'));
+        reject(new Error('ContentSecurityPolicies not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class SecurityMonitoring {
     }
   }
 
-  public getConfig(): SecurityMonitoringConfig {
+  public getConfig(): ContentSecurityPoliciesConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): SecurityMonitoringAnalytics {
+  public getAnalytics(): ContentSecurityPoliciesAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<SecurityMonitoringConfig>): void {
+  public updateConfig(updates: Partial<ContentSecurityPoliciesConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class SecurityMonitoring {
   }
 }
 
-export default SecurityMonitoring;
+export default ContentSecurityPolicies;
