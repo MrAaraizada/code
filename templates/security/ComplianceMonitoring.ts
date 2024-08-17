@@ -1,5 +1,5 @@
 ﻿/**
- * AuditLogging - Advanced Implementation
+ * ComplianceMonitoring - Advanced Implementation
  * Generated for: feat: implement template security framework
 
 - Create template vulnerability scanning
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:57
  */
 
-export interface AuditLoggingConfig {
+export interface ComplianceMonitoringConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface AuditLoggingConfig {
   };
 }
 
-export interface AuditLoggingAnalytics {
+export interface ComplianceMonitoringAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface AuditLoggingAnalytics {
   insights: string[];
 }
 
-export class AuditLogging {
-  private config: AuditLoggingConfig;
-  private analytics: AuditLoggingAnalytics;
+export class ComplianceMonitoring {
+  private config: ComplianceMonitoringConfig;
+  private analytics: ComplianceMonitoringAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: AuditLoggingConfig) {
+  constructor(config: ComplianceMonitoringConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class AuditLogging {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('AuditLogging not properly initialized'));
+        reject(new Error('ComplianceMonitoring not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class AuditLogging {
     }
   }
 
-  public getConfig(): AuditLoggingConfig {
+  public getConfig(): ComplianceMonitoringConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): AuditLoggingAnalytics {
+  public getAnalytics(): ComplianceMonitoringAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<AuditLoggingConfig>): void {
+  public updateConfig(updates: Partial<ComplianceMonitoringConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class AuditLogging {
   }
 }
 
-export default AuditLogging;
+export default ComplianceMonitoring;

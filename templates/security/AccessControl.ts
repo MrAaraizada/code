@@ -1,5 +1,5 @@
 ﻿/**
- * AuditLogging - Advanced Implementation
+ * AccessControl - Advanced Implementation
  * Generated for: feat: implement template security framework
 
 - Create template vulnerability scanning
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:06:57
  */
 
-export interface AuditLoggingConfig {
+export interface AccessControlConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface AuditLoggingConfig {
   };
 }
 
-export interface AuditLoggingAnalytics {
+export interface AccessControlAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface AuditLoggingAnalytics {
   insights: string[];
 }
 
-export class AuditLogging {
-  private config: AuditLoggingConfig;
-  private analytics: AuditLoggingAnalytics;
+export class AccessControl {
+  private config: AccessControlConfig;
+  private analytics: AccessControlAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: AuditLoggingConfig) {
+  constructor(config: AccessControlConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class AuditLogging {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('AuditLogging not properly initialized'));
+        reject(new Error('AccessControl not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class AuditLogging {
     }
   }
 
-  public getConfig(): AuditLoggingConfig {
+  public getConfig(): AccessControlConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): AuditLoggingAnalytics {
+  public getAnalytics(): AccessControlAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<AuditLoggingConfig>): void {
+  public updateConfig(updates: Partial<AccessControlConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class AuditLogging {
   }
 }
 
-export default AuditLogging;
+export default AccessControl;
