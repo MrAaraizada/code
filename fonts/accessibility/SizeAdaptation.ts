@@ -1,5 +1,5 @@
 ﻿/**
- * ContrastOptimization - Advanced Implementation
+ * SizeAdaptation - Advanced Implementation
  * Generated for: feat: create font accessibility framework
 
 - Implement font accessibility testing
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:07:08
  */
 
-export interface ContrastOptimizationConfig {
+export interface SizeAdaptationConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -21,7 +21,7 @@ export interface ContrastOptimizationConfig {
   };
 }
 
-export interface ContrastOptimizationAnalytics {
+export interface SizeAdaptationAnalytics {
   usage: number;
   performance: {
     latency: number;
@@ -31,13 +31,13 @@ export interface ContrastOptimizationAnalytics {
   insights: string[];
 }
 
-export class ContrastOptimization {
-  private config: ContrastOptimizationConfig;
-  private analytics: ContrastOptimizationAnalytics;
+export class SizeAdaptation {
+  private config: SizeAdaptationConfig;
+  private analytics: SizeAdaptationAnalytics;
   private initialized: boolean = false;
   private listeners: Map<string, Function[]> = new Map();
 
-  constructor(config: ContrastOptimizationConfig) {
+  constructor(config: SizeAdaptationConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -88,7 +88,7 @@ export class ContrastOptimization {
   public execute(params?: any): Promise<any> {
     return new Promise((resolve, reject) => {
       if (!this.config.enabled || !this.initialized) {
-        reject(new Error('ContrastOptimization not properly initialized'));
+        reject(new Error('SizeAdaptation not properly initialized'));
         return;
       }
 
@@ -136,15 +136,15 @@ export class ContrastOptimization {
     }
   }
 
-  public getConfig(): ContrastOptimizationConfig {
+  public getConfig(): SizeAdaptationConfig {
     return { ...this.config };
   }
 
-  public getAnalytics(): ContrastOptimizationAnalytics {
+  public getAnalytics(): SizeAdaptationAnalytics {
     return { ...this.analytics };
   }
 
-  public updateConfig(updates: Partial<ContrastOptimizationConfig>): void {
+  public updateConfig(updates: Partial<SizeAdaptationConfig>): void {
     this.config = {
       ...this.config,
       ...updates,
@@ -157,4 +157,4 @@ export class ContrastOptimization {
   }
 }
 
-export default ContrastOptimization;
+export default SizeAdaptation;
