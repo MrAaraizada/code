@@ -1,5 +1,5 @@
 ﻿/**
- * SignalProcessing - Advanced Implementation
+ * FeedbackSystem - Advanced Implementation
  * Generated for: feat: implement brain-computer interface
 
 - Create neural signal processing
@@ -9,7 +9,7 @@
  * Created: 2026-01-19 13:29:17
  */
 
-export interface SignalProcessingConfig {
+export interface FeedbackSystemConfig {
   enabled: boolean;
   version: string;
   features: string[];
@@ -32,11 +32,11 @@ export interface SignalProcessingConfig {
   };
 }
 
-export class SignalProcessing {
-  private config: SignalProcessingConfig;
+export class FeedbackSystem {
+  private config: FeedbackSystemConfig;
   private initialized: boolean = false;
 
-  constructor(config: SignalProcessingConfig) {
+  constructor(config: FeedbackSystemConfig) {
     this.config = {
       ...config,
       metadata: {
@@ -70,7 +70,7 @@ export class SignalProcessing {
 
   public async execute(params?: any): Promise<any> {
     if (!this.config.enabled || !this.initialized) {
-      throw new Error('SignalProcessing not properly initialized');
+      throw new Error('FeedbackSystem not properly initialized');
     }
 
     return {
@@ -82,9 +82,9 @@ export class SignalProcessing {
     };
   }
 
-  public getConfig(): SignalProcessingConfig {
+  public getConfig(): FeedbackSystemConfig {
     return JSON.parse(JSON.stringify(this.config));
   }
 }
 
-export default SignalProcessing;
+export default FeedbackSystem;
