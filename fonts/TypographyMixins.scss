@@ -1,0 +1,10 @@
+﻿@mixin heading($size: 1rem, $weight: 600) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: 1.2;
+}
+
+@mixin body-text($size: 1rem) {
+  font-size: $size;
+  line-height: 1.5;
+}
