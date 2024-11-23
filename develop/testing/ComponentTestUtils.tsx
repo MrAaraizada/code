@@ -1,19 +1,18 @@
-﻿import React from 'react';
-import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import { ThemeProvider } from '../hooks/useTheme';
-import { ThemeConfig } from '../styles/theme';
+﻿import React from "react";
+import { render, fireEvent, waitFor } from "@testing-library/react-native";
+import { ThemeProvider } from "../styles/theme";
 
 export interface TestWrapperProps {
   children: React.ReactNode;
-  theme?: typeof ThemeConfig;
+  theme?: any;
 }
 
 export const TestWrapper: React.FC<TestWrapperProps> = ({ 
   children, 
-  theme = ThemeConfig 
+  theme = {} 
 }) => {
   return (
-    <ThemeProvider value={theme}>
+    <ThemeProvider theme={theme}>
       {children}
     </ThemeProvider>
   );
@@ -21,101 +20,43 @@ export const TestWrapper: React.FC<TestWrapperProps> = ({
 
 export const renderWithTheme = (
   component: React.ReactElement,
-  options?: {
-    theme?: typeof ThemeConfig;
-    wrapper?: React.ComponentType<any>;
-  }
+  options: any = {}
 ) => {
-  const Wrapper = options?.wrapper || TestWrapper;
-  
   return render(component, {
     wrapper: ({ children }) => (
-      <Wrapper theme={options?.theme}>
+      <TestWrapper theme={options.theme}>
         {children}
-      </Wrapper>
+      </TestWrapper>
     ),
+    ...options,
   });
 };
 
-export const createMockProps = <T extends object>(
-  overrides: Partial<T> = {}
-): T => {
-  const defaultProps = {
-    testID: 'test-component',
-    onPress: jest.fn(),
-    onChangeText: jest.fn(),
-    onValueChange: jest.fn(),
-    ...overrides,
-  };
+export const mockAnimatedValue = (initialValue: number = 0) => {
+  const AnimatedValue = jest.fn(() => ({
+    setValue: jest.fn(),
+    addListener: jest.fn(),
+    removeListener: jest.fn(),
+    removeAllListeners: jest.fn(),
+    stopAnimation: jest.fn(),
+    resetAnimation: jest.fn(),
+    _value: initialValue,
+  }));
   
-  return defaultProps as T;
+  return new AnimatedValue();
 };
 
-export const waitForElement = async (
-  getByTestId: (testId: string) => any,
-  testId: string,
-  timeout: number = 1000
-) => {
-  return waitFor(() => getByTestId(testId), { timeout });
-};
+export const mockGestureHandler = () => ({
+  onGestureEvent: jest.fn(),
+  onHandlerStateChange: jest.fn(),
+});
 
-export const simulatePress = (element: any) => {
-  fireEvent.press(element);
-};
-
-export const simulateTextInput = (element: any, text: string) => {
-  fireEvent.changeText(element, text);
-};
-
-export const simulateScroll = (element: any, offset: { x?: number; y?: number }) => {
-  fireEvent.scroll(element, {
-    nativeEvent: {
-      contentOffset: { x: offset.x || 0, y: offset.y || 0 },
-    },
+export const createMockComponent = (name: string) => {
+  return React.forwardRef((props: any, ref: any) => {
+    return React.createElement(name, { ...props, ref });
   });
 };
 
-export const expectAccessibility = (element: any) => {
-  return {
-    toHaveAccessibilityLabel: (label: string) => {
-      expect(element).toHaveProp('accessibilityLabel', label);
-    },
-    toHaveAccessibilityRole: (role: string) => {
-      expect(element).toHaveProp('accessibilityRole', role);
-    },
-    toHaveAccessibilityState: (state: object) => {
-      expect(element).toHaveProp('accessibilityState', state);
-    },
-  };
-};
-
-export const createPerformanceTest = (
-  testName: string,
-  testFn: () => void,
-  maxDuration: number = 100
-) => {
-  return () => {
-    const startTime = performance.now();
-    testFn();
-    const endTime = performance.now();
-    const duration = endTime - startTime;
-    
-    if (duration > maxDuration) {
-      throw new Error(
-        `Performance test "${testName}" took ${duration}ms, expected < ${maxDuration}ms`
-      );
-    }
-  };
-};
-
-export default {
-  TestWrapper,
-  renderWithTheme,
-  createMockProps,
-  waitForElement,
-  simulatePress,
-  simulateTextInput,
-  simulateScroll,
-  expectAccessibility,
-  createPerformanceTest,
+export const waitForAnimation = (duration: number = 300) => {
+  return new Promise(resolve => setTimeout(resolve, duration));
 };
