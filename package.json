@@ -32,3 +32,12 @@
   },
   "packageManager": "pnpm@8.15.0"
 }
+,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "volta": {
+    "node": "20.10.0",
+    "pnpm": "8.15.0"
+  }
