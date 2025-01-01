@@ -17,6 +17,12 @@
     "link-check": "tsx ./scripts/reportBrokenLinks.mts"
   },
   "dependencies": {
+    "@mui/material": "^6.0.0",
+    "@mui/system": "^6.0.0",
+    "@mui/base": "^6.0.0",
+    "@mui/joy": "^6.0.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
     "@babel/core": "^7.28.5",
     "@babel/runtime": "^7.28.4",
     "@base-ui/react": "^1.0.0",
@@ -134,3 +140,4 @@
     "yargs": "18.0.0"
   }
 }
+
