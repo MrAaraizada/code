@@ -282,3 +282,20 @@ export default withDocsInfra({
         },
       }),
 } satisfies NextConfig);
+
+// Material UI v7 integration
+const withMaterialUI = {
+  experimental: {
+    cssChunking: true,
+    optimizeCss: true,
+  },
+  compiler: {
+    emotion: true,
+  },
+  transpilePackages: [
+    '@mui/material',
+    '@mui/system',
+    '@mui/base',
+    '@mui/joy',
+  ],
+};
