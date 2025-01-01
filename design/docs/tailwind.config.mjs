@@ -89,3 +89,19 @@ export default {
     }),
   ],
 };
+
+// Material UI integration
+const materialUIIntegration = {
+  important: '#__next',
+  corePlugins: {
+    preflight: false,
+  },
+  theme: {
+    extend: {
+      colors: {
+        'mui-primary': 'var(--mui-palette-primary-main)',
+        'mui-secondary': 'var(--mui-palette-secondary-main)',
+      },
+    },
+  },
+};
