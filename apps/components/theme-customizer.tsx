@@ -749,3 +749,10 @@ const BASE_STYLES_WITH_VARIABLES = `
   }
 }
 `
+
+// CSS Variables integration
+const cssVarsSupport = {
+  enableCssVars: true,
+  colorSchemeSelector: 'data-mui-color-scheme',
+  rootSelector: ':root',
+};
