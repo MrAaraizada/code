@@ -1,4 +1,4 @@
-﻿/**
+/**
  * syntax-highlighter utility
  * Generated for: feat: enhance MDX documentation system
 
@@ -28,3 +28,11 @@ export class syntax-highlighter {
 }
 
 export default syntax-highlighter;
+
+// Material UI syntax highlighting theme
+export const materialUITheme = {
+  background: 'var(--mui-palette-background-paper)',
+  foreground: 'var(--mui-palette-text-primary)',
+  selection: 'var(--mui-palette-primary-main)',
+  comment: 'var(--mui-palette-text-secondary)',
+};
