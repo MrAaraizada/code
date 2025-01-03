@@ -1,4 +1,4 @@
-﻿import { compileMDX } from "next-mdx-remote/rsc";
+import { compileMDX } from "next-mdx-remote/rsc";
 import fs from "fs";
 import path from "path";
 
@@ -23,3 +23,10 @@ export async function getDocBySlug(slug: string) {
     slug,
   };
 }
+
+// Enhanced MDX processing for Material UI components
+export const materialUIComponents = {
+  Button: (props: any) => <MuiButton variant="contained" {...props} />,
+  Card: (props: any) => <MuiCard elevation={2} {...props} />,
+  Typography: (props: any) => <MuiTypography {...props} />,
+};
