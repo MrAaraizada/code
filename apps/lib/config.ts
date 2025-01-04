@@ -40,3 +40,14 @@ export const META_THEME_COLORS = {
   light: "#ffffff",
   dark: "#09090b",
 }
+
+// Joy UI configuration
+export const joyUIConfig = {
+  theme: 'joy',
+  colorSystem: 'joy',
+  components: {
+    Button: { defaultProps: { variant: 'solid' } },
+    Input: { defaultProps: { variant: 'outlined' } },
+    Card: { defaultProps: { variant: 'outlined' } },
+  },
+};
