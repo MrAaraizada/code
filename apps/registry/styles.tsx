@@ -119,3 +119,11 @@ export const STYLES = [
 ] as const
 
 export type Style = (typeof STYLES)[number]
+
+// Joy UI style variants
+export const joyStyles = {
+  solid: 'joy-solid',
+  soft: 'joy-soft',
+  outlined: 'joy-outlined',
+  plain: 'joy-plain',
+};
