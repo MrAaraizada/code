@@ -1,0 +1,8 @@
+{
+  "name": "@design/joy-examples",
+  "version": "1.0.0",
+  "dependencies": {
+    "@mui/joy": "^6.0.0",
+    "react": "^18.2.0"
+  }
+}
