@@ -1,4 +1,4 @@
-﻿/**
+/**
  * playground-utils utility
  * Generated for: feat: implement documentation playground
 
@@ -28,3 +28,11 @@ export class playground-utils {
 }
 
 export default playground-utils;
+
+// Material UI playground utilities
+export const materialUIUtils = {
+  themeGenerator: true,
+  componentBuilder: true,
+  codeExporter: true,
+  shareableLinks: true,
+};
