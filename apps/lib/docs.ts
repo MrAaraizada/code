@@ -11,3 +11,11 @@ export const PAGES_NEW = [
 ]
 
 export const PAGES_UPDATED = ["/docs/components/button"]
+
+// Interactive documentation features
+export const interactiveFeatures = {
+  liveCodeEditor: true,
+  componentPreview: true,
+  propsTable: true,
+  exampleGallery: true,
+};
