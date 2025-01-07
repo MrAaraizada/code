@@ -5,6 +5,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -32,3 +34,4 @@
   ],
   "exclude": ["node_modules"]
 }
+
