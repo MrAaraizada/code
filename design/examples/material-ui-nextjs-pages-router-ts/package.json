@@ -3,6 +3,8 @@
   "version": "7.0.0",
   "private": true,
   "scripts": {
+    "analyze": "cross-env ANALYZE=true next build",
+    "type-check": "tsc --noEmit",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -29,3 +31,4 @@
     "typescript": "latest"
   }
 }
+
