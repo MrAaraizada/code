@@ -29,3 +29,21 @@ MyDocument.getInitialProps = async (ctx: DocumentContext) => {
   const finalProps = await documentGetInitialProps(ctx);
   return finalProps;
 };
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { createEmotionCache } from '../src/createEmotionCache';
+
+export default class MyDocument extends Document {
+  render() {
+    return (
+      <Html lang="en">
+        <Head>
+          <meta name="emotion-insertion-point" content="" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
+}
