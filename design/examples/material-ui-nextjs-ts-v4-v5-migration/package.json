@@ -33,3 +33,8 @@
     "typescript": "latest"
   }
 }
+,
+  "scripts": {
+    "migrate": "npx @mui/codemod v5.0.0/preset-safe src",
+    "migrate-theme": "npx @mui/codemod v5.0.0/theme-spacing-api src"
+  }
