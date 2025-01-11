@@ -6,3 +6,14 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   plugins: [react(), tailwindcss()],
 });
+
+// Tailwind CSS integration with Material UI
+const tailwindConfig = {
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@mui/material/styles";',
+      },
+    },
+  },
+};
