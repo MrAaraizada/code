@@ -24,3 +24,8 @@
     "vite": "latest"
   }
 }
+,
+  "scripts": {
+    "analyze": "vite-bundle-analyzer dist",
+    "preview-https": "vite preview --https"
+  }
