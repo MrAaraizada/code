@@ -25,3 +25,8 @@
     "typescript": "latest"
   }
 }
+,
+  "scripts": {
+    "build:pigment": "pigment-css build",
+    "dev:pigment": "pigment-css dev"
+  }
