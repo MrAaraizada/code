@@ -68,3 +68,33 @@ const port = 3000;
 app.listen(port, () => {
   console.log(`Listening on ${port}`);
 });
+const express = require('express');
+const React = require('react');
+const { renderToString } = require('react-dom/server');
+const { ThemeProvider } = require('@mui/material/styles');
+const { ServerStyleSheets } = require('@mui/styles');
+
+const app = express();
+
+app.get('*', (req, res) => {
+  const sheets = new ServerStyleSheets();
+  const html = renderToString(
+    sheets.collect(
+      React.createElement(ThemeProvider, { theme }, 
+        React.createElement(App)
+      )
+    )
+  );
+  
+  res.send(
+    <!DOCTYPE html>
+    <html>
+      <head>
+        
+      </head>
+      <body>
+        <div id="root"></div>
+      </body>
+    </html>
+  );
+});
