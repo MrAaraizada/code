@@ -18,3 +18,20 @@ export default defineConfig({
     include: ['prop-types', 'react-is', 'hoist-non-react-statics'],
   },
 });
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { pigment } from '@pigment-css/vite-plugin';
+
+export default defineConfig({
+  plugins: [
+    react(),
+    pigment({
+      theme: {
+        palette: {
+          primary: '#1976d2',
+          secondary: '#dc004e',
+        },
+      },
+    }),
+  ],
+});
