@@ -15,3 +15,23 @@ export default function RootLayout(props: { children: React.ReactNode }) {
     </html>
   );
 }
+import { CssVarsProvider } from '@mui/joy/styles';
+import { CssBaseline } from '@mui/joy';
+import { theme } from './theme';
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <CssVarsProvider theme={theme}>
+          <CssBaseline />
+          {children}
+        </CssVarsProvider>
+      </body>
+    </html>
+  );
+}
