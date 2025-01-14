@@ -31,3 +31,8 @@
     ]
   }
 }
+,
+  "dependencies": {
+    "@mui/joy": "^6.0.0",
+    "@mui/material": "^6.0.0"
+  }
