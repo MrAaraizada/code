@@ -126,3 +126,26 @@ export function ErrorBoundary() {
 
   return <h1>Unknown Error</h1>;
 }
+import { Links, LiveReload, Meta, Outlet, Scripts } from '@remix-run/react';
+import { ThemeProvider } from '@mui/material/styles';
+import { CssBaseline } from '@mui/material';
+import { theme } from './theme';
+
+export default function App() {
+  return (
+    <html lang="en">
+      <head>
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <Outlet />
+        </ThemeProvider>
+        <Scripts />
+        <LiveReload />
+      </body>
+    </html>
+  );
+}
