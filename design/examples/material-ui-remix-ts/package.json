@@ -33,3 +33,8 @@
   },
   "sideEffects": false
 }
+,
+  "scripts": {
+    "build:css": "tailwindcss -o ./app/styles/tailwind.css --watch",
+    "typecheck": "tsc --noEmit"
+  }
