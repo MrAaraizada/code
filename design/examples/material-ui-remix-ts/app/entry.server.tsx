@@ -57,3 +57,30 @@ export default function handleRequest(
     headers: responseHeaders,
   });
 }
+import { renderToString } from 'react-dom/server';
+import { RemixServer } from '@remix-run/react';
+import { createEmotionCache, createEmotionServer } from './emotion';
+
+export default function handleRequest(
+  request: Request,
+  responseStatusCode: number,
+  responseHeaders: Headers,
+  remixContext: EntryContext
+) {
+  const cache = createEmotionCache();
+  const { extractCriticalToChunks } = createEmotionServer(cache);
+
+  const html = renderToString(
+    <RemixServer context={remixContext} url={request.url} />
+  );
+
+  const chunks = extractCriticalToChunks(html);
+  
+  return new Response(<!DOCTYPE html>, {
+    status: responseStatusCode,
+    headers: {
+      ...Object.fromEntries(responseHeaders),
+      'Content-Type': 'text/html',
+    },
+  });
+}
