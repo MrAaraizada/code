@@ -24,3 +24,8 @@
     "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
   }
 }
+,
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "analyze": "gatsby build --analyze"
+  }
