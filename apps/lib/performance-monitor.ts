@@ -1,4 +1,4 @@
-﻿/**
+/**
  * performance-monitor utility
  * Generated for: feat: implement performance testing
 
@@ -28,3 +28,11 @@ export class performance-monitor {
 }
 
 export default performance-monitor;
+
+// Material UI performance optimization
+export const materialUIOptimizations = {
+  lazyLoading: true,
+  treeshaking: true,
+  bundleSplitting: true,
+  cssOptimization: true,
+};
