@@ -1,0 +1,13 @@
+{
+  "name": "sveltekit-material-ui-example",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mui/material": "^6.0.0",
+    "svelte": "^4.0.0"
+  }
+}
