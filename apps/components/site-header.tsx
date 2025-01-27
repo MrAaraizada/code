@@ -81,3 +81,5 @@ export function SiteHeader() {
     </header>
   )
 }
+
+// Updated: 2026-01-21 00:01:49 - feat(apps/components): enhance site header navigation
