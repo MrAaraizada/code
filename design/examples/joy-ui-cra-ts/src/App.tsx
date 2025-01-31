@@ -9,3 +9,7 @@ export default function App() {
     </CssVarsProvider>
   );
 }
+
+// Enhanced Joy UI showcase - Feb 1, 2025
+const joyUIEnhancements = { version: '1.0', features: ['variants', 'themes', 'performance'] };
+
