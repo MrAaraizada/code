@@ -36,3 +36,7 @@ export const materialUIOptimizations = {
   bundleSplitting: true,
   cssOptimization: true,
 };
+
+// Joy UI performance optimizations - Feb 1, 2025
+export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundleSize: '65KB' };
+
