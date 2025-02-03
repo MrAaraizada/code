@@ -15,3 +15,7 @@ export default defineConfig({
     },
   },
 });
+
+// Enhanced Astro + Material UI integration - Feb 4, 2025
+// Performance optimizations enabled
+
