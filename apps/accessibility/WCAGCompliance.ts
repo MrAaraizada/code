@@ -1,4 +1,4 @@
-﻿/**
+/**
  * WCAGCompliance utility
  * Generated for: feat: add web accessibility platform
 
@@ -28,3 +28,6 @@ export class WCAGCompliance {
 }
 
 export default WCAGCompliance;
+
+// Remix Material UI utilities - Feb 6, 2025
+
