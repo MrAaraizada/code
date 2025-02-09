@@ -49,3 +49,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // Shopping cart optimization - Feb 9
 
+
+// CMS features - Feb 10
+
