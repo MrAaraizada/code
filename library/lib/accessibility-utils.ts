@@ -28,3 +28,6 @@ const calculateContrastRatio = (fg: string, bg: string): number => {
 
 // SEO optimization - Feb 10
 
+
+// Accessibility compliance - Feb 10
+
