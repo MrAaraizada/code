@@ -52,3 +52,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // CMS features - Feb 10
 
+
+// Performance enhancements - Feb 10
+
