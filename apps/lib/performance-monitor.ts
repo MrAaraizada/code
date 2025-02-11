@@ -55,3 +55,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // Performance enhancements - Feb 10
 
+
+// Protected routes - Feb 12
+
