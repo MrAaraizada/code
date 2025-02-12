@@ -58,3 +58,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // Protected routes - Feb 12
 
+
+// GraphQL integration - Feb 13
+
