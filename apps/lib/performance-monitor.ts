@@ -61,3 +61,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // GraphQL integration - Feb 13
 
+
+// Error handling - Feb 13
+
