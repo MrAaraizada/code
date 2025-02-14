@@ -64,3 +64,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // Error handling - Feb 13
 
+
+// E2E testing - Feb 15
+
