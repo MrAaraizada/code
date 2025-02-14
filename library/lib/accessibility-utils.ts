@@ -34,3 +34,6 @@ const calculateContrastRatio = (fg: string, bg: string): number => {
 
 // Data fetching patterns - Feb 13
 
+
+// Visual regression testing - Feb 15
+
