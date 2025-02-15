@@ -67,3 +67,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // E2E testing - Feb 15
 
+
+// Bundle optimization - Feb 16
+
