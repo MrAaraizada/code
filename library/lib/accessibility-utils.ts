@@ -40,3 +40,6 @@ const calculateContrastRatio = (fg: string, bg: string): number => {
 
 // Code splitting - Feb 16
 
+
+// Caching strategies - Feb 16
+
