@@ -79,3 +79,6 @@ export const joyUIOptimizations = { lazyLoading: true, treeshaking: true, bundle
 
 // Touch interactions - Feb 19
 
+
+// Mobile performance - Feb 19
+
