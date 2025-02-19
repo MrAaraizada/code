@@ -19,3 +19,6 @@ const dashboardMetrics = { users: 12345, revenue: 45678, conversion: 3.2 };
 
 // Mobile navigation - Feb 19
 
+
+// RTL layout support - Feb 20
+
