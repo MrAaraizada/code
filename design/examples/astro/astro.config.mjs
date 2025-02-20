@@ -22,3 +22,6 @@ export default defineConfig({
 
 // SvelteKit integration - Feb 21
 
+
+// Astro islands - Feb 21
+
