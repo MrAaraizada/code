@@ -7,3 +7,6 @@ export const GatsbyIntegration = () => {
 // Enhanced Gatsby + Material UI integration - Feb 4, 2025
 const gatsbyFeatures = { graphql: true, ssg: true, plugins: true };
 
+
+// Vue.js integration - Feb 21
+
