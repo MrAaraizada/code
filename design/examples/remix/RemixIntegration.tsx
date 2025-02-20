@@ -7,3 +7,6 @@ export const RemixIntegration = () => {
 // Advanced Remix + Material UI integration - Feb 4, 2025
 const remixFeatures = { ssr: true, forms: true, navigation: true };
 
+
+// Solid.js integration - Feb 21
+
