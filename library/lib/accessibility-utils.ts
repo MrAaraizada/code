@@ -49,3 +49,6 @@ const calculateContrastRatio = (fg: string, bg: string): number => {
 
 // Mobile accessibility - Feb 19
 
+
+// WCAG compliance - Feb 23
+
