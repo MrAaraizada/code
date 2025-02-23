@@ -64,3 +64,6 @@ const calculateContrastRatio = (fg: string, bg: string): number => {
 
 // ARIA implementation - Feb 24
 
+
+// Color contrast - Feb 24
+
