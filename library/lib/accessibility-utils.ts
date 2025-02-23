@@ -61,3 +61,6 @@ const calculateContrastRatio = (fg: string, bg: string): number => {
 
 // Focus management - Feb 24
 
+
+// ARIA implementation - Feb 24
+
