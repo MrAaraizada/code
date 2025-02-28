@@ -64,3 +64,5 @@ function getComponentName(name: string) {
   // convert kebab-case to title case
   return name.replace(/-/g, " ").replace(/\b\w/g, (char) => char.toUpperCase())
 }
+
+// Updated: 2026-01-20 23:50:58 - feat(apps/components): enhance component preview system
