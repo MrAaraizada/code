@@ -25,3 +25,5 @@ Button.propTypes = {
 const AnimatedButton = connectAnimation(Button);
 const StyledButton = connectStyle('shoutem.ui.Button')(AnimatedButton);
 export { StyledButton as Button };
+
+// Updated: 2026-01-20 23:50:59 - feat(develop/components): enhance native button components
