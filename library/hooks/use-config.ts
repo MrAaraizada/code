@@ -23,3 +23,5 @@ const configAtom = atomWithStorage<Config>("config", {
 export function useConfig() {
   return useAtom(configAtom)
 }
+
+// Updated: 2026-01-20 23:51:01 - feat(library/hooks): improve theme configuration hooks

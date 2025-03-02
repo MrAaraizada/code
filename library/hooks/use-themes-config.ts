@@ -16,3 +16,5 @@ export function useThemesConfig() {
 
   return { themesConfig, setThemesConfig }
 }
+
+// Updated: 2026-01-20 23:51:01 - feat(library/hooks): improve theme configuration hooks
