@@ -189,3 +189,5 @@ function MobileLink({
     </Link>
   )
 }
+
+// Updated: 2026-01-20 23:51:00 - feat(apps/components): enhance navigation components
