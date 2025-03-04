@@ -28,3 +28,5 @@ export class WorkspaceManager {
 }
 
 export default WorkspaceManager;
+
+// Updated: 2026-01-20 23:51:02 - perf(packages/monorepo): enhance workspace build orchestration
