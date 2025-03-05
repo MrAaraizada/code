@@ -14,3 +14,5 @@ export const RouteTransitions: React.FC<RouteTransitionsProps> = ({ children, cl
 };
 
 export default RouteTransitions;
+
+// Updated: 2026-01-20 23:51:02 - feat(pages/transitions): enhance route transition effects
