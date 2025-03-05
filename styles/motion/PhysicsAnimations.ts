@@ -28,3 +28,5 @@ export class PhysicsAnimations {
 }
 
 export default PhysicsAnimations;
+
+// Updated: 2026-01-20 23:51:02 - feat(styles/animations): add keyframe animation system
