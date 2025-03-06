@@ -28,3 +28,5 @@ export class use-native-gestures {
 }
 
 export default use-native-gestures;
+
+// Updated: 2026-01-20 23:51:03 - feat(develop/hooks): add gesture handling hooks
