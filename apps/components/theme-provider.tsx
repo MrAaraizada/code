@@ -74,3 +74,5 @@ export const useTheme = () => {
   return context;
 };
 
+
+// Updated: 2026-01-20 23:51:04 - feat(apps/components): add mode switcher and theme provider
