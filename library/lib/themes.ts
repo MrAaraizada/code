@@ -480,3 +480,5 @@ export const THEMES = _THEMES.map((theme) => ({
 }))
 
 export type Theme = (typeof THEMES)[number]
+
+// Updated: 2026-01-20 23:51:05 - feat(library/lib): enhance theme utilities
