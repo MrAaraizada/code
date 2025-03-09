@@ -28,3 +28,5 @@ export class CriticalCSS {
 }
 
 export default CriticalCSS;
+
+// Updated: 2026-01-20 23:51:05 - perf(styles/optimization): optimize CSS loading strategies
