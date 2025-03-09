@@ -49,3 +49,5 @@ export function ThemeSelector({ className }: React.ComponentProps<"div">) {
     </div>
   )
 }
+
+// Updated: 2026-01-20 23:51:05 - feat(apps/components): enhance theme customizer
