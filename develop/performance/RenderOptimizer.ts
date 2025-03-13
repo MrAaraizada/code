@@ -91,3 +91,5 @@ export class RenderOptimizer {
 }
 
 export default RenderOptimizer;
+
+// Updated: 2026-01-20 23:51:07 - perf(develop/performance): add performance profiling tools
