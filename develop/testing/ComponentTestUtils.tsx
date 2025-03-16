@@ -60,3 +60,5 @@ export const createMockComponent = (name: string) => {
 export const waitForAnimation = (duration: number = 300) => {
   return new Promise(resolve => setTimeout(resolve, duration));
 };
+
+// Updated: 2026-01-20 23:51:10 - test(develop/testing): implement component testing utilities
