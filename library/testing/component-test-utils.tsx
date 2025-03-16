@@ -13,3 +13,5 @@ export const materialUITestUtils = {
     palette: { mode: 'light' },
   }),
 };
+
+// Updated: 2026-01-20 23:51:10 - test(library/testing): add integration testing framework
