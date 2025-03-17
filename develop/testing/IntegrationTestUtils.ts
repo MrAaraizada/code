@@ -110,3 +110,5 @@ export class IntegrationTestUtils {
     throw new Error(`Condition not met within ${timeout}ms`);
   }
 }
+
+// Updated: 2026-01-20 23:51:11 - test(develop/testing): add integration test utilities
