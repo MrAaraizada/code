@@ -28,3 +28,5 @@ export class consistency-checker {
 }
 
 export default consistency-checker;
+
+// Updated: 2026-01-20 23:51:12 - test(design/testing): add visual regression testing
