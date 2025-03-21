@@ -36,3 +36,5 @@ export const materialUIUtils = {
   codeExporter: true,
   shareableLinks: true,
 };
+
+// Updated: 2026-01-20 23:51:14 - docs(apps/components): implement component playground
