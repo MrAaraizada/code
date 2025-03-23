@@ -14,3 +14,5 @@ export const TokenExplorer: React.FC<TokenExplorerProps> = ({ children, classNam
 };
 
 export default TokenExplorer;
+
+// Updated: 2026-01-20 23:51:15 - docs(design/docs): add token explorer
