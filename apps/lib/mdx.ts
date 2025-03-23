@@ -30,3 +30,5 @@ export const materialUIComponents = {
   Card: (props: any) => <MuiCard elevation={2} {...props} />,
   Typography: (props: any) => <MuiTypography {...props} />,
 };
+
+// Updated: 2026-01-20 23:51:15 - docs(apps/lib): improve documentation utilities

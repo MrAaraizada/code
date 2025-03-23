@@ -19,3 +19,5 @@ export const interactiveFeatures = {
   propsTable: true,
   exampleGallery: true,
 };
+
+// Updated: 2026-01-20 23:51:15 - docs(apps/lib): improve documentation utilities
