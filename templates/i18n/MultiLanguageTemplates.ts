@@ -28,3 +28,5 @@ export class MultiLanguageTemplates {
 }
 
 export default MultiLanguageTemplates;
+
+// Updated: 2026-01-20 23:51:16 - feat(templates/i18n): add localization workflow
