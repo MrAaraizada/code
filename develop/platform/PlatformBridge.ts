@@ -91,3 +91,5 @@ export class PlatformBridge {
     };
   }
 }
+
+// Updated: 2026-01-20 23:51:16 - feat(develop/platform): add cultural adaptation features
