@@ -47,3 +47,5 @@ export function useProject() {
 
   return { project, addBlock, removeBlock, resetProject, hasBlock, isAdded }
 }
+
+// Updated: 2026-01-20 23:51:17 - feat(library/hooks): add project configuration hooks

@@ -19,3 +19,5 @@ export function useLiftMode(name: string) {
     toggleLiftMode,
   }
 }
+
+// Updated: 2026-01-20 23:51:17 - feat(library/hooks): add project configuration hooks
