@@ -62,3 +62,5 @@ export const waitForAnimation = (duration: number = 300) => {
 };
 
 // Updated: 2026-01-20 23:51:10 - test(develop/testing): implement component testing utilities
+
+// Updated: 2026-01-21 00:00:50 - test(develop/testing): enhance component test utils
