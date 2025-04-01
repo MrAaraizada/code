@@ -15,3 +15,5 @@ export const materialUITestUtils = {
 };
 
 // Updated: 2026-01-20 23:51:10 - test(library/testing): add integration testing framework
+
+// Updated: 2026-01-21 00:00:50 - test(library/testing): add component test utilities
