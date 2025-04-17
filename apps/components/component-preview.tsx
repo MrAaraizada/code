@@ -83,3 +83,5 @@ export function ComponentPreview({
 // Updated: 2026-01-20 23:50:58 - feat(apps/components): enhance component preview system
 
 // Updated: 2026-01-20 23:51:14 - docs(apps/components): implement component playground
+
+// Updated: 2026-01-21 00:01:03 - test(apps/components): enhance component preview
