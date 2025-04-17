@@ -28,3 +28,5 @@ export class SyntaxValidator {
 }
 
 export default SyntaxValidator;
+
+// Updated: 2026-01-21 00:01:03 - test(templates/validation): add syntax validator
