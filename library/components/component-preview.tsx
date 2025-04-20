@@ -174,3 +174,5 @@ export function ComponentPreview({
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:01:05 - docs(library/components): enhance component preview
