@@ -18,3 +18,5 @@ fun ComponentPlayground(
 ) {
     // Implementation here
 }
+
+// Updated: 2026-01-21 00:01:05 - docs(component/docs): implement component playground
