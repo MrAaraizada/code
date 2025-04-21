@@ -18,3 +18,5 @@ fun ExampleGenerator(
 ) {
     // Implementation here
 }
+
+// Updated: 2026-01-21 00:01:06 - docs(component/docs): implement example generator
