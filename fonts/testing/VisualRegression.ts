@@ -28,3 +28,5 @@ export class VisualRegression {
 }
 
 export default VisualRegression;
+
+// Updated: 2026-01-21 00:01:12 - test(fonts/testing): add visual regression for fonts
