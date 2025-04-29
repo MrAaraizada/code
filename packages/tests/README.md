@@ -32,3 +32,5 @@ describe("my test suite", () => {
   })
 })
 ```
+
+// Updated: 2026-01-21 00:01:13 - docs(packages/tests): update testing documentation
