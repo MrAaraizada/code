@@ -74,3 +74,5 @@ We plan to release the support of **Figma** in the coming weeks. You can subscri
 ## Features
 
 You can learn more about the features available on the [Sketch page details](https://mui.com/store/items/sketch-react/?utm_source=blog&utm_medium=blog&utm_campaign=introducing-sketch) of the symbols.
+
+// Updated: 2026-01-21 00:05:38 - docs(pages/blog): migrate sketch introduction post
