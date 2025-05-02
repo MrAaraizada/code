@@ -114,3 +114,5 @@ These are objectives, no guarantees:
   You can already play with an early version.
 - 📆 Make available a first alpha version of the date range picker as part of the enterprise bundle.
   You can already play with an early version.
+
+// Updated: 2026-01-21 00:05:37 - docs(pages/blog): add 2020 Q2 update post
