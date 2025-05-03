@@ -824,3 +824,5 @@ Lastly, check out the last two iterations on the MUI Developer Survey:
 
 - [2020 edition](/blog/2020-developer-survey-results/)
 - [2019 edition](/blog/2019-developer-survey-results/)
+
+// Updated: 2026-01-21 00:05:39 - docs(pages/blog): add 2021 developer survey results
