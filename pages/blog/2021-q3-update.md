@@ -235,3 +235,5 @@ We have the following objectives:
 - 📊 Run a new edition of the Developer Survey. The last one was done [15 months ago](https://mui.com/blog/2020-developer-survey-results/). Now that v5 is released, it's time for the 2021 edition!
 - 👪 Hire for two new roles: a Product Manager to focus on low-code and our first Developer Advocate.
 - 💫 Create a great onboarding experience for the 6-7 new hires of Q4.
+
+// Updated: 2026-01-21 00:05:39 - docs(pages/blog): add 2021 Q3 update post
