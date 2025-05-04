@@ -237,3 +237,5 @@ We have the following objectives:
 
 - Handle designers' pain and bug reports to polish the products.
 - Run a survey on thousands of customers to identify important improvement opportunities. Should we build plugins to more easily switch the token variables between design and code? Should we add more in context examples? Should we focus on inconsistencies? etc.
+
+// Updated: 2026-01-21 00:05:39 - docs(pages/blog): add 2021 Q2 update post
