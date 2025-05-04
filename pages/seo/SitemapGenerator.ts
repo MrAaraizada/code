@@ -28,3 +28,5 @@ export class SitemapGenerator {
 }
 
 export default SitemapGenerator;
+
+// Updated: 2026-01-21 00:05:40 - feat(pages/seo): implement sitemap generator
