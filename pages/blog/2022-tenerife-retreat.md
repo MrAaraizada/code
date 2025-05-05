@@ -188,3 +188,5 @@ I look forward to meeting new colleagues—as well as reconnecting with the Tene
 <img alt="The path leading down the hill from the sunset view, with Teide glowing red in the background." src="/static/blog/2022-tenerife-retreat/teide-hike.jpeg" width="1440" height="1920" loading="lazy" />
 
 <p class="blog-description">One final view of Teide glowing red in the sunset.</p>
+
+// Updated: 2026-01-21 00:05:41 - docs(pages/blog): add 2022 tenerife retreat post
