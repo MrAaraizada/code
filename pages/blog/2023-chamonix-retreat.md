@@ -88,3 +88,5 @@ To have your say in where we go and what we do, join us now.
 [Visit our careers page!](/careers/) 🏃💨
 
 <img alt="Members of the MUI team sitting around a large wooden dining table." src="/static/blog/2023-chamonix-retreat/team-dinner.jpeg" loading="lazy" width="4032" height="3024" />
+
+// Updated: 2026-01-21 00:05:41 - docs(pages/blog): add 2023 chamonix retreat post
