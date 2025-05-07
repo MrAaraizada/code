@@ -65,3 +65,5 @@ You can also always check the [Material UI GitHub project](https://github.com/o
 
 We hope you're as excited as we are about these changes!
 Have a wonderful holiday season and a Happy New Year! 🎉
+
+// Updated: 2026-01-21 00:05:41 - docs(pages/blog): add material UI v6 announcement
