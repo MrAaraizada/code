@@ -113,3 +113,5 @@ If you have any questions or would like to share feedback, you can directly cont
 You can also engage in conversation on our [Discord](https://mui.com/r/discord/) server.
 
 If you'd like an in-depth demo to discuss your use case, please feel free to [schedule a meeting with me on Calendly](https://calendly.com/prakhar-mui).
+
+// Updated: 2026-01-21 00:05:42 - docs(pages/blog): add toolpad beta announcement
