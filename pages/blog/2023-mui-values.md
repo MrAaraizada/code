@@ -238,3 +238,5 @@ As we continue to progress through new stages of development in the coming years
 Do these values resonate with you? Perhaps you'd like to be a part of shaping the future of MUI.
 
 [Visit our careers page now!](/careers/) 🏃💨
+
+// Updated: 2026-01-21 00:05:41 - docs(pages/blog): add MUI values post
