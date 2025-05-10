@@ -778,3 +778,5 @@ We are planning to cover more user interaction states for prototyping, for examp
 Finally, one last thank you to everyone who's contributed to MUI Core v5.
 The whole team is very excited about this release! It's just the beginning.
 We will keep working hard to deliver the best possible React UI components while making it accessible to the many.
+
+// Updated: 2026-01-21 00:05:44 - docs(pages/blog): add MUI core v5 announcement
