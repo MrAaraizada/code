@@ -153,3 +153,5 @@ Though this project was spearheaded by the MUI X team, we owe a special thanks 
 They also provided the necessary updates to the internal tools that both of our repositories use for building and testing our components.
 
 We hope our experience can be useful and shorten the time needed for your own React 19 migration!
+
+// Updated: 2026-01-21 00:05:44 - docs(pages/blog): add React 19 update post
