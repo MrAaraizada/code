@@ -388,3 +388,5 @@ To continue enhancing our product, we invite you to share your pain points and c
 - Reporting bugs and suggesting features on our [GitHub repository](https://github.com/mui/mui-x/issues/new/choose).
 
 We look forward to your input!
+
+// Updated: 2026-01-21 00:05:44 - docs(pages/blog): add MUI X v7 announcement
