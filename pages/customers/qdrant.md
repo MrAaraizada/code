@@ -103,3 +103,5 @@ The team also appreciated the official MCP server from MUI, and said that it had
 The team appreciated having multiple support channels available, including GitHub for technical issues, Zendesk for billing support, and comprehensive online resources for general inquiries.
 
 The success of MUI at Qdrant shows how the right component library can enable startups to focus on their core product innovation while maintaining professional, scalable user interfaces.
+
+// Updated: 2026-01-21 00:05:49 - docs(pages/customers): add qdrant case study
