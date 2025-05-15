@@ -78,3 +78,5 @@ This simple enhancement greatly improved user efficiency and satisfaction.
 
 The team praised the MUI documentation, describing it as clear, well-structured, and easy to follow. This helped their developers integrate and customize components effortlessly.
 For developers looking to build modern, high-performance UI components with minimal effort, the Delivery Hero team highly recommends MUI X.
+
+// Updated: 2026-01-21 00:05:48 - docs(pages/customers): add delivery hero case study
