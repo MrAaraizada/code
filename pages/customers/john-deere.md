@@ -66,3 +66,5 @@ By integrating MUI X, John Deere's teams found a baseline of standardized compo
 - Improved consistency – Developers could use MUI X as a standardized foundation across teams.
 - Faster development – Teams saved time by leveraging ready-to-use, high-performance, battle-tested components.
 - Enhanced flexibility – MUI X filled in the gaps where the internal design system fell short.
+
+// Updated: 2026-01-21 00:05:49 - docs(pages/customers): add john deere case study
