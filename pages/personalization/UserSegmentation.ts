@@ -28,3 +28,5 @@ export class UserSegmentation {
 }
 
 export default UserSegmentation;
+
+// Updated: 2026-01-21 00:05:51 - feat(pages/personalization): add user segmentation
