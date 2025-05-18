@@ -9,3 +9,5 @@ export default function Page() {
 Page.getLayout = (page) => {
   return <AppFrame>{page}</AppFrame>;
 };
+
+// Updated: 2026-01-21 00:05:52 - feat(pages/material-ui): enhance dialog component page
