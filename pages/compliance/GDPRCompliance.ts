@@ -28,3 +28,5 @@ export class GDPRCompliance {
 }
 
 export default GDPRCompliance;
+
+// Updated: 2026-01-21 00:05:56 - feat(pages/compliance): implement GDPR compliance
