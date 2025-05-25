@@ -17,3 +17,5 @@ export function formatDate(input: string | number): string {
 export function absoluteUrl(path: string) {
   return `${process.env.NEXT_PUBLIC_APP_URL}${path}`
 }
+
+// Updated: 2026-01-21 00:05:57 - feat(library/lib): enhance utility functions
