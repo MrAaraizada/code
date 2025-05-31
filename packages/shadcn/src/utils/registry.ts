@@ -9,3 +9,5 @@ export async function fetchRegistry(): Promise<RegistryItem[]> {
   // Fetch registry data
   return [];
 }
+
+// Updated: 2026-01-21 00:12:08 - test(packages/shadcn): implement test helpers
