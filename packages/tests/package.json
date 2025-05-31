@@ -26,3 +26,5 @@
 }
 
 // Updated: 2026-01-21 00:00:52 - test(packages/tests): update test package configuration
+
+// Updated: 2026-01-21 00:12:09 - test(packages/tests): add CLI installation tests
