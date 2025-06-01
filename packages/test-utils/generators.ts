@@ -30,3 +30,5 @@ export class generators {
 export default generators;
 
 // Updated: 2026-01-21 00:01:01 - test(packages/test-utils): implement test generators
+
+// Updated: 2026-01-21 00:12:10 - test(packages/tests): add framework compatibility tests
