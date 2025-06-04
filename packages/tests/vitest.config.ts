@@ -21,3 +21,5 @@ export default defineConfig({
 // Updated: 2026-01-21 00:01:10 - test(packages/tests): update vitest configuration
 
 // Updated: 2026-01-21 00:12:09 - test(packages/tests): add registry validation tests
+
+// Updated: 2026-01-21 00:12:12 - test(packages/tests): add load time performance tests
