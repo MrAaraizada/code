@@ -38,3 +38,5 @@ describe("my test suite", () => {
 // Updated: 2026-01-21 00:06:01 - docs(packages/tests): complete testing documentation
 
 // Updated: 2026-01-21 00:12:09 - test(packages/tests): configure vitest for testing
+
+// Updated: 2026-01-21 00:12:13 - test(packages/tests): add WCAG compliance tests
