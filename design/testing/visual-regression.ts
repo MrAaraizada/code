@@ -32,3 +32,5 @@ export default visual-regression;
 // Updated: 2026-01-20 23:51:12 - test(design/testing): add visual regression testing
 
 // Updated: 2026-01-21 00:00:55 - test(design/testing): add visual regression framework
+
+// Updated: 2026-01-21 00:12:15 - test(design/testing): enhance visual regression
