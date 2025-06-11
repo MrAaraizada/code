@@ -25,3 +25,5 @@ export const interactiveFeatures = {
 // Updated: 2026-01-21 00:01:07 - docs(apps/lib): enhance documentation utilities
 
 // Updated: 2026-01-21 00:06:01 - docs(apps/lib): finalize documentation utilities
+
+// Updated: 2026-01-21 00:12:18 - test(apps/e2e): add theme switching E2E tests
