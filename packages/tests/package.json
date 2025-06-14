@@ -30,3 +30,5 @@
 // Updated: 2026-01-21 00:12:09 - test(packages/tests): add CLI installation tests
 
 // Updated: 2026-01-21 00:12:12 - test(packages/tests): add bundle size tests
+
+// Updated: 2026-01-21 00:12:20 - test(packages/tests): add Chrome browser tests
