@@ -32,3 +32,5 @@ export default mocks;
 // Updated: 2026-01-21 00:00:59 - test(packages/test-utils): add mock utilities
 
 // Updated: 2026-01-21 00:12:10 - test(packages/test-utils): enhance test setup utilities
+
+// Updated: 2026-01-21 00:12:23 - test(packages/tests): add Core Web Vitals tests
