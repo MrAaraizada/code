@@ -44,3 +44,5 @@ describe("my test suite", () => {
 // Updated: 2026-01-21 00:12:20 - test(packages/tests): add screenshot comparison tests
 
 // Updated: 2026-01-21 00:12:20 - test(packages/tests): add mobile responsive tests
+
+// Updated: 2026-01-21 00:12:23 - test(packages/tests): add Lighthouse performance tests
