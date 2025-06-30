@@ -283,3 +283,5 @@ export function createConfig(partial?: DeepPartial<Config>): Config {
 
   return defaultConfig
 }
+
+// Updated: 2026-01-21 00:38:01 - feat(packages/shadcn): add theme customization command
