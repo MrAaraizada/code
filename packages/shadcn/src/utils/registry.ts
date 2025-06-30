@@ -11,3 +11,5 @@ export async function fetchRegistry(): Promise<RegistryItem[]> {
 }
 
 // Updated: 2026-01-21 00:12:08 - test(packages/shadcn): implement test helpers
+
+// Updated: 2026-01-21 00:38:02 - feat(packages/shadcn): implement theme generator utility
