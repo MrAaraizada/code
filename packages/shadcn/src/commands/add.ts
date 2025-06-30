@@ -11,3 +11,5 @@ export async function addComponent(name: string): Promise<void> {
 }
 
 // Updated: 2026-01-21 00:12:08 - test(packages/shadcn): add CLI test command
+
+// Updated: 2026-01-21 00:38:02 - feat(packages/shadcn): enhance add command with theme support
