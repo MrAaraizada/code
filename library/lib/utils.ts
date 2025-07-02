@@ -23,3 +23,5 @@ export function absoluteUrl(path: string) {
 // Updated: 2026-01-21 00:12:14 - test(library/components): add dialog component tests
 
 // Updated: 2026-01-21 00:12:23 - perf(library/performance): add optimization metrics
+
+// Updated: 2026-01-21 00:38:04 - feat(library/lib): add utility functions for CLI
