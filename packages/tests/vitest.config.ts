@@ -29,3 +29,5 @@ export default defineConfig({
 // Updated: 2026-01-21 00:12:22 - test(packages/tests): add color contrast tests
 
 // Updated: 2026-01-21 00:12:25 - test(packages/tests): add dependency audit tests
+
+// Updated: 2026-01-21 00:38:05 - test(packages/tests): add custom registry tests
