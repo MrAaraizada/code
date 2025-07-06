@@ -289,3 +289,5 @@ export function createConfig(partial?: DeepPartial<Config>): Config {
 // Updated: 2026-01-21 00:38:03 - feat(packages/shadcn): enhance config management
 
 // Updated: 2026-01-21 00:38:05 - feat(packages/shadcn): enhance config for custom registries
+
+// Updated: 2026-01-21 00:38:06 - feat(packages/shadcn): implement plugin system foundation
