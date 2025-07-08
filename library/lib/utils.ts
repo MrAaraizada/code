@@ -27,3 +27,5 @@ export function absoluteUrl(path: string) {
 // Updated: 2026-01-21 00:38:04 - feat(library/lib): add utility functions for CLI
 
 // Updated: 2026-01-21 00:38:06 - feat(library/lib): add plugin utilities
+
+// Updated: 2026-01-21 00:38:08 - feat(library/lib): add icon management utilities
