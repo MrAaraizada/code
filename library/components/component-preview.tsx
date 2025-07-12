@@ -178,3 +178,5 @@ export function ComponentPreview({
 // Updated: 2026-01-21 00:01:05 - docs(library/components): enhance component preview
 
 // Updated: 2026-01-21 00:12:14 - test(library/components): add input component tests
+
+// Updated: 2026-01-21 00:38:10 - feat(library/components): add icon wrapper component
