@@ -55,3 +55,5 @@ export function EmptyAvatarGroup() {
     </Empty>
   )
 }
+
+// Updated: 2026-01-21 00:38:16 - feat(apps/app): add empty avatar group
