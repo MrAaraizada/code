@@ -66,3 +66,5 @@ export function InputGroupButtonExample() {
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:38:18 - feat(apps/app): add input group button
