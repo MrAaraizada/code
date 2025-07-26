@@ -44,3 +44,5 @@ export function InputGroupTextareaExample() {
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:38:21 - feat(apps/app): implement input group textarea
