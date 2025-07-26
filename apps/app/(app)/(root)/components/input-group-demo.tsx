@@ -100,3 +100,5 @@ export function InputGroupDemo() {
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:38:21 - feat(apps/app): add input group demo
