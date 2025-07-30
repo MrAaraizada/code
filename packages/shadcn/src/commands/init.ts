@@ -581,3 +581,5 @@ async function promptForMinimalConfig(
 }
 
 // Updated: 2026-01-21 00:38:03 - feat(packages/shadcn): enhance init command for bulk operations
+
+// Updated: 2026-01-21 00:38:25 - feat(packages/shadcn): complete init command features
