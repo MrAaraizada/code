@@ -15,3 +15,5 @@ export async function addComponent(name: string): Promise<void> {
 // Updated: 2026-01-21 00:38:02 - feat(packages/shadcn): enhance add command with theme support
 
 // Updated: 2026-01-21 00:38:06 - feat(packages/shadcn): add plugin support to add command
+
+// Updated: 2026-01-21 00:38:25 - feat(packages/shadcn): finalize add command enhancements
