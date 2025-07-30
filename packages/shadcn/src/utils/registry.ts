@@ -15,3 +15,5 @@ export async function fetchRegistry(): Promise<RegistryItem[]> {
 // Updated: 2026-01-21 00:38:02 - feat(packages/shadcn): implement theme generator utility
 
 // Updated: 2026-01-21 00:38:04 - feat(packages/shadcn): add custom registry support
+
+// Updated: 2026-01-21 00:38:26 - feat(packages/shadcn): optimize registry utilities
