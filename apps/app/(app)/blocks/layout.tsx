@@ -77,3 +77,5 @@ export default function BlocksLayout({
     </>
   )
 }
+
+// Updated: 2026-01-21 00:41:15 - perf(apps/app): optimize blocks layout
