@@ -33,3 +33,5 @@ export default async function BlocksPage() {
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:41:15 - perf(apps/app): enhance blocks page
