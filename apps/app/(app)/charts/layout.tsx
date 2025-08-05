@@ -73,3 +73,5 @@ export default function ChartsLayout({
     </>
   )
 }
+
+// Updated: 2026-01-21 00:41:16 - perf(apps/app): enhance charts layout
