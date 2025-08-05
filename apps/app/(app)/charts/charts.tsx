@@ -273,3 +273,5 @@ export {
   ChartTooltipIcons,
   ChartTooltipAdvanced,
 }
+
+// Updated: 2026-01-21 00:41:16 - perf(apps/app): optimize charts component
