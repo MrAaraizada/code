@@ -180,3 +180,5 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     </Sidebar>
   )
 }
+
+// Updated: 2026-01-21 00:41:18 - perf(apps/app): optimize app sidebar
