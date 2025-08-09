@@ -805,3 +805,5 @@ function TableCellViewer({ item }: { item: z.infer<typeof schema> }) {
     </Drawer>
   )
 }
+
+// Updated: 2026-01-21 00:41:18 - perf(apps/app): optimize dashboard data table
