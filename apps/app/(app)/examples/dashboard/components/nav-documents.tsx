@@ -90,3 +90,5 @@ export function NavDocuments({
     </SidebarGroup>
   )
 }
+
+// Updated: 2026-01-21 00:41:19 - perf(apps/app): enhance nav documents
