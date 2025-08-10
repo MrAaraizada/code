@@ -108,3 +108,5 @@ export function NavUser({
     </SidebarMenu>
   )
 }
+
+// Updated: 2026-01-21 00:41:20 - perf(apps/app): optimize nav user
