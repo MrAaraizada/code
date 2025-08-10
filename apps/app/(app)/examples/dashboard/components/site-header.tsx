@@ -17,3 +17,5 @@ export function SiteHeader() {
     </header>
   )
 }
+
+// Updated: 2026-01-21 00:41:20 - perf(apps/app): optimize site header
