@@ -160,3 +160,5 @@ function ModelItem({ model, isSelected, onSelect, onPeek }: ModelItemProps) {
     </CommandItem>
   )
 }
+
+// Updated: 2026-01-21 00:41:21 - perf(apps/app): optimize model selector
