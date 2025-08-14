@@ -51,3 +51,5 @@ export function TopPSelector({ defaultValue }: TopPSelectorProps) {
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:41:23 - perf(apps/app): optimize top-p selector
