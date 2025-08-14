@@ -81,3 +81,5 @@ export function PresetSelector({ presets, ...props }: PresetSelectorProps) {
     </Popover>
   )
 }
+
+// Updated: 2026-01-21 00:41:22 - perf(apps/app): enhance preset selector
