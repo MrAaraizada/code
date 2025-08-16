@@ -121,3 +121,5 @@ export const columns: ColumnDef<Task>[] = [
     cell: ({ row }) => <DataTableRowActions row={row} />,
   },
 ]
+
+// Updated: 2026-01-21 00:41:24 - perf(apps/app): optimize tasks columns
