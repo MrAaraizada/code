@@ -60,3 +60,5 @@ export const models: Model<ModelType>[] = [
     strengths: "Real-time application where low-latency is preferable",
   },
 ]
+
+// Updated: 2026-01-21 00:41:23 - perf(apps/app): enhance playground models data
