@@ -64,3 +64,5 @@ export function DataTableColumnHeader<TData, TValue>({
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:41:25 - perf(apps/app): optimize column header
