@@ -62,3 +62,5 @@ export function DataTableToolbar<TData>({
     </div>
   )
 }
+
+// Updated: 2026-01-21 00:41:26 - perf(apps/app): optimize table toolbar
