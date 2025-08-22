@@ -179,3 +179,5 @@ fun VisualRegressionPreview() {
 // Updated: 2026-01-21 00:00:55 - test(component/testing): add visual regression testing
 
 // Updated: 2026-01-21 00:12:18 - test(component/testing): add Android visual regression
+
+// Updated: 2026-01-21 00:41:31 - feat(component/testing): enhance visual regression
