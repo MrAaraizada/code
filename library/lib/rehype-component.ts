@@ -282,3 +282,5 @@ function getComponentSourceFileContent(node: UnistNode) {
 }
 
 // Updated: 2026-01-21 00:05:40 - feat(library/lib): update rehype component processor
+
+// Updated: 2026-01-21 00:47:21 - feat(library/lib): enhance rehype component
