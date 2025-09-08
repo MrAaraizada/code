@@ -216,3 +216,5 @@ async function printDiff(diff: Change[]) {
 }
 
 // Updated: 2026-01-21 00:38:03 - feat(packages/shadcn): add diff command for component comparison
+
+// Updated: 2026-01-21 00:47:24 - feat(packages/shadcn): optimize diff command
