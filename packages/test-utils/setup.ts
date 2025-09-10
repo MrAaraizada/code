@@ -36,3 +36,5 @@ export default setup;
 // Updated: 2026-01-21 00:12:13 - test(packages/tests): add screen reader tests
 
 // Updated: 2026-01-21 00:12:21 - test(packages/tests): add tablet responsive tests
+
+// Updated: 2026-01-21 00:47:25 - feat(packages/test-utils): enhance setup utilities
