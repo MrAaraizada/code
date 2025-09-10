@@ -34,3 +34,5 @@ export default generators;
 // Updated: 2026-01-21 00:12:10 - test(packages/tests): add framework compatibility tests
 
 // Updated: 2026-01-21 00:12:21 - test(packages/tests): add desktop responsive tests
+
+// Updated: 2026-01-21 00:47:25 - feat(packages/test-utils): add generators
