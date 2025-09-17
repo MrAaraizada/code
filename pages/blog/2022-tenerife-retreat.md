@@ -190,3 +190,5 @@ I look forward to meeting new colleagues—as well as reconnecting with the Tene
 <p class="blog-description">One final view of Teide glowing red in the sunset.</p>
 
 // Updated: 2026-01-21 00:05:41 - docs(pages/blog): add 2022 tenerife retreat post
+
+// Updated: 2026-01-21 00:47:32 - docs(pages/blog): add Tenerife retreat post
