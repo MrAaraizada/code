@@ -67,3 +67,5 @@ We hope you're as excited as we are about these changes!
 Have a wonderful holiday season and a Happy New Year! 🎉
 
 // Updated: 2026-01-21 00:05:41 - docs(pages/blog): add material UI v6 announcement
+
+// Updated: 2026-01-21 00:47:32 - docs(pages/blog): add Material UI v6 announcement
