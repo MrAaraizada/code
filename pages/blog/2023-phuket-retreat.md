@@ -125,3 +125,5 @@ Visit [our Careers page](/careers/) 👈
 <img alt="MUIers lined up at Banana Beach, enjoying the sand, scenery, and soft drinks." src="/static/blog/2023-phuket-retreat/banana-beach.jpg" width="1200" height="840" loading="lazy" />
 
 // Updated: 2026-01-21 00:05:42 - docs(pages/blog): add 2023 phuket retreat post
+
+// Updated: 2026-01-21 00:47:33 - docs(pages/blog): add Phuket retreat post
