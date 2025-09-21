@@ -123,3 +123,5 @@ If this role excites you, we want to hear from you.
 We'd love for you to share the unique skills, passion, and experience you could bring to MUI.
 
 // Updated: 2026-01-21 00:05:47 - docs(pages/careers): update developer advocate position
+
+// Updated: 2026-01-21 00:47:35 - docs(pages/careers): update developer advocate position
