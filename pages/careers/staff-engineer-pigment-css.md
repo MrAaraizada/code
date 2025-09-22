@@ -120,3 +120,5 @@ If this role excites you, we want to hear from you.
 We'd love for you to share the unique skills, passion, and experience you could bring to MUI.
 
 // Updated: 2026-01-21 00:05:46 - docs(pages/careers): add staff engineer pigment CSS position
+
+// Updated: 2026-01-21 00:47:37 - docs(pages/careers): add staff engineer pigment CSS
