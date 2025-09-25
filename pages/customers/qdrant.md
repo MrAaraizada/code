@@ -105,3 +105,5 @@ The team appreciated having multiple support channels available, including GitHu
 The success of MUI at Qdrant shows how the right component library can enable startups to focus on their core product innovation while maintaining professional, scalable user interfaces.
 
 // Updated: 2026-01-21 00:05:49 - docs(pages/customers): add qdrant case study
+
+// Updated: 2026-01-21 00:47:39 - docs(pages/customers): add Qdrant case study
