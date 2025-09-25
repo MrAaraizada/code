@@ -106,3 +106,5 @@ Seamless integration - Since Tebra was already using the open-source MUI librari
 The team values the ongoing relationship with MUI and the ability to influence the product roadmap through feedback and potential feature requests.
 
 // Updated: 2026-01-21 00:05:49 - docs(pages/customers): add tebra case study
+
+// Updated: 2026-01-21 00:47:39 - docs(pages/customers): add Tebra case study
