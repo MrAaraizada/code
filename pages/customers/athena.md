@@ -102,3 +102,5 @@ Athena found the MUI documentation to be highly detailed, structured, and clear.
 MUI X is now an essential tool in Athena's development stack, enabling rapid, scalable, and high-performance UI solutions.
 
 // Updated: 2026-01-21 00:05:48 - docs(pages/customers): add athena case study
+
+// Updated: 2026-01-21 00:47:38 - docs(pages/customers): add Athena case study
