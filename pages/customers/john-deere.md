@@ -68,3 +68,5 @@ By integrating MUI X, John Deere's teams found a baseline of standardized compo
 - Enhanced flexibility – MUI X filled in the gaps where the internal design system fell short.
 
 // Updated: 2026-01-21 00:05:49 - docs(pages/customers): add john deere case study
+
+// Updated: 2026-01-21 00:47:39 - docs(pages/customers): add John Deere case study
